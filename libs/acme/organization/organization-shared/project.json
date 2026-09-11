@@ -1,0 +1,16 @@
+{
+    "name": "organization-shared",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/organization/organization-shared/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:organization", "platform:shared"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
