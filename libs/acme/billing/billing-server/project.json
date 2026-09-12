@@ -1,0 +1,11 @@
+{
+    "name": "billing-server",
+    "projectType": "library",
+    "sourceRoot": "libs/acme/billing/billing-server/src",
+    "tags": [
+        "scope:acme",
+        "domain:billing",
+        "platform:server",
+        "layer:service"
+    ]
+}
