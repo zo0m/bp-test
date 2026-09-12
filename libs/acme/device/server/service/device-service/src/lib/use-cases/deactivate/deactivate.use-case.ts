@@ -18,3 +18,5 @@ export class DeviceDeactivateUseCase {
         throw new Error('DeviceDeactivateUseCase is not implemented');
     }
 }
+
+// the business logic somebody wrote
