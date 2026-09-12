@@ -1,0 +1,22 @@
+{
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "namedInputs": {
+        "default": [
+            "{projectRoot}/**/*"
+        ],
+        "production": [
+            "default",
+            "!{projectRoot}/**/*.spec.ts"
+        ]
+    },
+    "targetDefaults": {
+        "typecheck": {
+            "cache": true,
+            "inputs": [
+                "default",
+                "^default"
+            ],
+            "command": "tsc -p {projectRoot}/tsconfig.lib.json --noEmit"
+        }
+    }
+}

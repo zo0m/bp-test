@@ -1,0 +1,11 @@
+{
+    "name": "billing",
+    "projectType": "library",
+    "sourceRoot": "libs/platform/billing/src",
+    "tags": [
+        "scope:platform",
+        "domain:billing",
+        "platform:server",
+        "layer:service"
+    ]
+}
