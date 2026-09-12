@@ -20,4 +20,8 @@ export class UpdateDeviceDto implements IUpdateDeviceDto {
     @IsOptional()
     @IsString()
     location?: string;
+
+    @IsOptional()
+    @IsString()
+    assetTag?: string;
 }

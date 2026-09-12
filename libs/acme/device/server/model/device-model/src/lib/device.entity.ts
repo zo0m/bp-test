@@ -26,4 +26,11 @@ export class Device extends BaseEntity {
         type: 'uuid',
     })
     location!: string;
+
+    @Column({
+        type: 'varchar',
+        length: 255,
+        nullable: true,
+    })
+    assetTag?: string;
 }

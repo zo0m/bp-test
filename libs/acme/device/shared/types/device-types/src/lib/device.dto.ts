@@ -4,10 +4,12 @@ export interface CreateDeviceDto {
     serial: string;
     status?: DeviceStatus;
     location: string;
+    assetTag?: string;
 }
 
 export interface UpdateDeviceDto {
     serial?: string;
     status?: DeviceStatus;
     location?: string;
+    assetTag?: string;
 }
