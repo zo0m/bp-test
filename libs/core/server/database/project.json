@@ -1,0 +1,16 @@
+{
+    "name": "core-server-database",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/core/server/database/src",
+    "projectType": "library",
+    "tags": ["scope:core", "domain:core", "platform:server", "layer:database"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
