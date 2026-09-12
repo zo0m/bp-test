@@ -27,6 +27,10 @@
         "@vitejs/plugin-vue": "^6.0.4",
         "nx": "22.5.2",
         "typescript": "~5.9.2",
-        "vite": "^7.0.0"
+        "vite": "^7.0.0",
+        "@nx/vitest": "22.5.2",
+        "vitest": "^3.0.0",
+        "vue-tsc": "^2.2.8",
+        "@types/node": "^22.0.0"
     }
 }

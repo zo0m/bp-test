@@ -9,14 +9,20 @@
             "!{projectRoot}/**/*.spec.ts"
         ]
     },
-    "targetDefaults": {
-        "typecheck": {
-            "cache": true,
-            "inputs": [
-                "default",
-                "^default"
-            ],
-            "command": "tsc -p {projectRoot}/tsconfig.lib.json --noEmit"
+    "targetDefaults": {},
+    "plugins": [
+        {
+            "plugin": "@nx/vite/plugin",
+            "options": {
+                "typecheckTargetName": "typecheck",
+                "buildTargetName": "build"
+            }
+        },
+        {
+            "plugin": "@nx/vitest",
+            "options": {
+                "testTargetName": "test"
+            }
         }
-    }
+    ]
 }
