@@ -7,6 +7,7 @@ export interface Device {
     status: DeviceStatus;
     location: string;
     inspections?: string[];
+    assetTag?: string;
     /** ISO 8601 - dates cross the JSON boundary as strings */
     createdAt: string;
     updatedAt: string;

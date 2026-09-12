@@ -19,4 +19,8 @@ export class CreateDeviceDto implements ICreateDeviceDto {
 
     @IsString()
     location!: string;
+
+    @IsOptional()
+    @IsString()
+    assetTag?: string;
 }
