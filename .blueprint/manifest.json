@@ -3,7 +3,7 @@
   "generatedBy": {
     "generatorVersion": "0.1.0",
     "formatterVersion": "prettier@3.6.2",
-    "projectVersionId": "pv_mtxyydhgacaa27e0",
+    "projectVersionId": "pv_mtxz3hlw9db47e68",
     "catalogs": {
       "archetypes": "blueprint-archetypes@2.3.0",
       "fieldTypes": "blueprint-field-types@2.2.0",
@@ -65,7 +65,7 @@
       "files": [
         {
           "path": "libs/acme/device/server/model/device-model/src/lib/device.entity.ts",
-          "hash": "sha256:5561be7f97b1a89f1be37d3853d99bcd420adb120e954a7234048a02235b41c2"
+          "hash": "sha256:f232929ed9d5b5816ccd79995a9d34207df706e7146ee186cbb546567f26ed42"
         }
       ]
     },
@@ -84,7 +84,7 @@
         },
         {
           "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/create-device.dto.ts",
-          "hash": "sha256:d165016d17be2819fb722dae2ae8d6cc2241293703f158186860a6e056c8645f"
+          "hash": "sha256:9e109272320cc22a7f078fe883c2d95d819a070e6dcf892cb01e599e8d80275a"
         },
         {
           "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/index.ts",
@@ -92,7 +92,7 @@
         },
         {
           "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/update-device.dto.ts",
-          "hash": "sha256:4f8844de6a88f4ec9474f242ec1a6409d39fb3d017e857005df36397458e7d1d"
+          "hash": "sha256:7d5eda4e48d4fa33d4afc1f42572ad46dac79b511d10be8447f46e02ff3c5983"
         }
       ]
     },
@@ -188,11 +188,11 @@
       "files": [
         {
           "path": "libs/acme/device/shared/types/device-types/src/lib/device.dto.ts",
-          "hash": "sha256:8932cf2c75adf52d4e21543d6a577c715beaeafdf47a19b1593fd653aff2032f"
+          "hash": "sha256:5ebdd8408c042f428af6dd4dd91ed067878528095ff4a5452a063b6c64ef2084"
         },
         {
           "path": "libs/acme/device/shared/types/device-types/src/lib/device.interface.ts",
-          "hash": "sha256:86d7a6401e135670afd2dbe59746f0c2efa2b191ae74243c20c5b1f33b5ddf7b"
+          "hash": "sha256:f1ad2d17e371a40aca647a3ae34fa6495958c54cd18bd51b8ea9d07c9af4092b"
         }
       ]
     },
@@ -338,7 +338,7 @@
       "files": [
         {
           "path": "libs/acme/device/web/feature/device-table/src/lib/DeviceTable.vue",
-          "hash": "sha256:1f544b6c9369b17075b72cc12609ebad0d328875e06a283943c19270704191ae"
+          "hash": "sha256:77d372feaec0a6ef6cdd41d90d828b2f24f23406c09879f137222793a17866a5"
         }
       ]
     },
@@ -371,7 +371,7 @@
       "files": [
         {
           "path": "libs/acme/device/web/page/device-pages/src/lib/details/DeviceDetailsPage.vue",
-          "hash": "sha256:c5cf0925d98f5a43420e7e012102c5f4d6d9d9fc7596e8abcf78a179c23b3092"
+          "hash": "sha256:d5488b645e84e7d9bcb2eec764d13ef592c1292c8648c3dfa35c78851e6f2046"
         }
       ]
     },

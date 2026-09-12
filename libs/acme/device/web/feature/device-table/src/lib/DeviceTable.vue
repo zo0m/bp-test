@@ -62,6 +62,7 @@ function handlePage(event: DataTablePageEvent) {
                 <DeviceStatus :status="data.status" />
             </template>
         </Column>
+        <Column field="assetTag" header="Asset tag" />
         <Column field="createdAt" header="Created" sortable>
             <template #body="{ data }">{{ formatDateShort(data.createdAt) }}</template>
         </Column>

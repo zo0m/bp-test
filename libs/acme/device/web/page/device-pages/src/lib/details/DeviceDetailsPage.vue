@@ -40,6 +40,8 @@ const { data, isLoading, error } = useDeviceQuery(id);
             <dd>{{ data.status }}</dd>
             <dt>Inspection History</dt>
             <dd>{{ data.inspections }}</dd>
+            <dt>Asset tag</dt>
+            <dd>{{ data.assetTag }}</dd>
         </dl>
     </div>
 </template>
