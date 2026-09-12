@@ -1,0 +1,27 @@
+{
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "namedInputs": {
+        "default": [
+            "{projectRoot}/**/*"
+        ],
+        "production": [
+            "default",
+            "!{projectRoot}/**/*.spec.ts"
+        ]
+    },
+    "plugins": [
+        {
+            "plugin": "@nx/vite/plugin",
+            "options": {
+                "typecheckTargetName": "typecheck",
+                "buildTargetName": "build"
+            }
+        },
+        {
+            "plugin": "@nx/vitest",
+            "options": {
+                "testTargetName": "test"
+            }
+        }
+    ]
+}

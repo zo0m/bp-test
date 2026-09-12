@@ -1,0 +1,35 @@
+{
+    "name": "field-service-platform",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "typecheck": "nx run-many -t typecheck"
+    },
+    "dependencies": {
+        "@nestjs/common": "^11.1.14",
+        "@nestjs/core": "^11.1.14",
+        "@nestjs/typeorm": "^11.0.0",
+        "@primeuix/themes": "^2.0.3",
+        "@tanstack/vue-query": "^5.101.0",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.14.4",
+        "primevue": "^4.5.5",
+        "reflect-metadata": "^0.2.2",
+        "rxjs": "~7.8.0",
+        "typeorm": "^0.3.28",
+        "vue": "^3.5.29",
+        "vue-router": "^4.6.4"
+    },
+    "devDependencies": {
+        "@nx/vite": "22.5.2",
+        "@nx/vitest": "22.5.2",
+        "@types/node": "20.19.9",
+        "@vitejs/plugin-vue": "^6.0.4",
+        "nx": "22.5.2",
+        "typescript": "~5.9.2",
+        "vite": "^7.0.0",
+        "vitest": "4.0.9",
+        "vue-tsc": "^2.2.8"
+    }
+}
