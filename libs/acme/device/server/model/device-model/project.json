@@ -1,0 +1,16 @@
+{
+    "name": "device-model",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/server/model/device-model/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:server", "layer:model"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
