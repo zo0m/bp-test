@@ -1,0 +1,16 @@
+{
+    "name": "device-permissions",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/shared/permissions/device-permissions/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:shared", "layer:permissions"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

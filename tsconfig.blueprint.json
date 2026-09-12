@@ -1,0 +1,94 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@acme/device/server/device-controller": [
+                "libs/acme/device/server/rest/device-controller/src/index.ts"
+            ],
+            "@acme/device/server/device-model": [
+                "libs/acme/device/server/model/device-model/src/index.ts"
+            ],
+            "@acme/device/server/device-service": [
+                "libs/acme/device/server/service/device-service/src/index.ts"
+            ],
+            "@acme/device/shared/device-constants": [
+                "libs/acme/device/shared/constants/device-constants/src/index.ts"
+            ],
+            "@acme/device/shared/device-permissions": [
+                "libs/acme/device/shared/permissions/device-permissions/src/index.ts"
+            ],
+            "@acme/device/shared/device-types": [
+                "libs/acme/device/shared/types/device-types/src/index.ts"
+            ],
+            "@acme/device/web/device-api": [
+                "libs/acme/device/web/data-access/device-api/src/index.ts"
+            ],
+            "@acme/device/web/device-deactivate": [
+                "libs/acme/device/web/feature/device-deactivate/src/index.ts"
+            ],
+            "@acme/device/web/device-form": [
+                "libs/acme/device/web/feature/device-form/src/index.ts"
+            ],
+            "@acme/device/web/device-form-provider": [
+                "libs/acme/device/web/feature/device-form-provider/src/index.ts"
+            ],
+            "@acme/device/web/device-generate-qr-code": [
+                "libs/acme/device/web/feature/device-generate-qr-code/src/index.ts"
+            ],
+            "@acme/device/web/device-link": [
+                "libs/acme/device/web/feature/device-link/src/index.ts"
+            ],
+            "@acme/device/web/device-move": [
+                "libs/acme/device/web/feature/device-move/src/index.ts"
+            ],
+            "@acme/device/web/device-pages": [
+                "libs/acme/device/web/page/device-pages/src/index.ts"
+            ],
+            "@acme/device/web/device-replace": [
+                "libs/acme/device/web/feature/device-replace/src/index.ts"
+            ],
+            "@acme/device/web/device-routes": [
+                "libs/acme/device/web/routing/device-routes/src/index.ts"
+            ],
+            "@acme/device/web/device-selector": [
+                "libs/acme/device/web/feature/device-selector/src/index.ts"
+            ],
+            "@acme/device/web/device-status": [
+                "libs/acme/device/web/ui/device-status/src/index.ts"
+            ],
+            "@acme/device/web/device-table": [
+                "libs/acme/device/web/feature/device-table/src/index.ts"
+            ],
+            "@acme/device/web/device-table-provider": [
+                "libs/acme/device/web/feature/device-table-provider/src/index.ts"
+            ],
+            "@acme/inspection/server/inspection-server": [
+                "libs/acme/inspection/inspection-server/src/index.ts"
+            ],
+            "@acme/inspection/shared/inspection-shared": [
+                "libs/acme/inspection/inspection-shared/src/index.ts"
+            ],
+            "@acme/inspection/web/inspection-web": [
+                "libs/acme/inspection/inspection-web/src/index.ts"
+            ],
+            "@acme/location/server/location-server": [
+                "libs/acme/location/location-server/src/index.ts"
+            ],
+            "@acme/location/shared/location-shared": [
+                "libs/acme/location/location-shared/src/index.ts"
+            ],
+            "@acme/location/web/location-web": ["libs/acme/location/location-web/src/index.ts"],
+            "@core/server/config": ["libs/core/server/config/src/index.ts"],
+            "@core/server/database": ["libs/core/server/database/src/index.ts"],
+            "@core/server/errors": ["libs/core/server/errors/src/index.ts"],
+            "@core/server/logging": ["libs/core/server/logging/src/index.ts"],
+            "@core/server/rest": ["libs/core/server/rest/src/index.ts"],
+            "@core/shared/constants": ["libs/core/shared/constants/src/index.ts"],
+            "@core/shared/types": ["libs/core/shared/types/src/index.ts"],
+            "@core/shared/utils": ["libs/core/shared/utils/src/index.ts"],
+            "@core/web/data-access": ["libs/core/web/data-access/src/index.ts"],
+            "@core/web/errors": ["libs/core/web/errors/src/index.ts"],
+            "@core/web/ui": ["libs/core/web/ui/src/index.ts"]
+        }
+    }
+}
