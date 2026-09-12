@@ -23,10 +23,6 @@
           "hash": "sha256:7dd69987a86a826f21dfc9e2ecfb29449839388416ad82832c1ab5dba24390b8"
         },
         {
-          "path": "apps/acme/admin-web/src/main.ts",
-          "hash": "sha256:028fe6b41e9458b4ae7b0c6811341c913be2a63e80c0204b10add828f2e75d9b"
-        },
-        {
           "path": "apps/acme/admin-web/src/vue-shims.d.ts",
           "hash": "sha256:6bc800c3176a8db9b5776776abf08f1b85974e7de596ed5d11a543b1cec268e4"
         }
