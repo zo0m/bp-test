@@ -22,3 +22,5 @@ app.use(VueQueryConfigPlugin, {
 });
 app.use(ErrorHandlerPlugin, { router });
 app.mount('#root');
+
+// a human changed this
