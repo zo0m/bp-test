@@ -1,0 +1,16 @@
+{
+    "name": "device-service",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/server/service/device-service/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:server"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "device-api",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/web/data-access/device-api/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:web", "layer:data-access"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,1654 @@
+{
+  "manifestVersion": "4",
+  "generatedBy": {
+    "generatorVersion": "0.1.0",
+    "formatterVersion": "prettier@3.6.2",
+    "projectVersionId": "pv_mtxw8vo51fe84f81",
+    "catalogs": {
+      "archetypes": "blueprint-archetypes@2.2.0",
+      "fieldTypes": "blueprint-field-types@2.2.0",
+      "granularity": "blueprint-structures@2.2.0",
+      "templates": "blueprint-templates@2.2.0",
+      "projectSchema": "blueprint-schema@2.2.0"
+    }
+  },
+  "artifacts": [
+    {
+      "logicalPath": "acme/admin-web/web/bootstrap",
+      "package": "acme-admin-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "apps/acme/admin-web/src/app/App.vue",
+          "hash": "sha256:7dd69987a86a826f21dfc9e2ecfb29449839388416ad82832c1ab5dba24390b8"
+        },
+        {
+          "path": "apps/acme/admin-web/src/main.ts",
+          "hash": "sha256:028fe6b41e9458b4ae7b0c6811341c913be2a63e80c0204b10add828f2e75d9b"
+        },
+        {
+          "path": "apps/acme/admin-web/src/vue-shims.d.ts",
+          "hash": "sha256:6bc800c3176a8db9b5776776abf08f1b85974e7de596ed5d11a543b1cec268e4"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/admin-web/web/routing",
+      "package": "acme-admin-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "apps/acme/admin-web/src/router/index.ts",
+          "hash": "sha256:59dabaa7ee15e81e23d662a070a04f31fb4000f80bcefbfa9f565bf6e63468b8"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/api/server/bootstrap",
+      "package": "acme-api",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "apps/acme/api/src/app/app.module.ts",
+          "hash": "sha256:1aec6da5b729fc30994e901df65a893f9289a4f0572acd16e88c38a348437617"
+        },
+        {
+          "path": "apps/acme/api/src/main.ts",
+          "hash": "sha256:a8a31aae8beb1364175c8726323afc2aad1692bc31ea4f6b31c95794d46af6c4"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/model",
+      "package": "device-model",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/server/model/device-model/src/lib/device.entity.ts",
+          "hash": "sha256:5561be7f97b1a89f1be37d3853d99bcd420adb120e954a7234048a02235b41c2"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/rest",
+      "package": "device-controller",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/lib/device-controller.module.ts",
+          "hash": "sha256:bbc4b5b5c5cd7c841cbdeb290e6c68717c0f03e41f5d929936a9a1b86c20bbb9"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/lib/device.controller.ts",
+          "hash": "sha256:24da057e0765de4e1e9fd218581a6bda23b7db228073af02e96f1e120cd774d7"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/create-device.dto.ts",
+          "hash": "sha256:d165016d17be2819fb722dae2ae8d6cc2241293703f158186860a6e056c8645f"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/index.ts",
+          "hash": "sha256:baaa8b9f1b82b466e1b6e3eb3d83f0a127b4f3f596c58febabdc6f0d7858e100"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/lib/dto/update-device.dto.ts",
+          "hash": "sha256:4f8844de6a88f4ec9474f242ec1a6409d39fb3d017e857005df36397458e7d1d"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/service",
+      "package": "device-service",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/device-service.module.ts",
+          "hash": "sha256:df54aa48fdcb3f08ca89332d1ed895f37e36a93caec85645639c0d4ba61781e0"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/device.service.ts",
+          "hash": "sha256:1c6f635049f1d544665da5dc6add628021139ba267f00dd85de51c1d9892429a"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/use-cases/deactivate",
+      "package": "device-service",
+      "lifecycle": "seeded",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/use-cases/deactivate/deactivate.use-case.ts",
+          "hash": "sha256:251ada7b076cfd12729e5e4348df9eece663f49d884cd949df137d462ad04b4f"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/use-cases/generate-qr-code",
+      "package": "device-service",
+      "lifecycle": "seeded",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/use-cases/generate-qr-code/generate-qr-code.use-case.ts",
+          "hash": "sha256:9f9bd7d2451283aa128c13ffa0e3bf467a167ef2b6e158988adc768100bec4c7"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/use-cases/move",
+      "package": "device-service",
+      "lifecycle": "seeded",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/use-cases/move/move.use-case.ts",
+          "hash": "sha256:a1c365800ed5b14fe43bd81e6de4d2b50bf40b3dea4bf99e1e12544f5b0ae039"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/server/use-cases/replace",
+      "package": "device-service",
+      "lifecycle": "seeded",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/src/lib/use-cases/replace/replace.use-case.ts",
+          "hash": "sha256:40b66c2d69916f52371f742e58b48984139a451604753c65a755f3254c05fc66"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/shared/constants",
+      "package": "device-constants",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/src/lib/device-error-codes.constants.ts",
+          "hash": "sha256:b2532cd5709ec5749eb5dc11ea51c6168f20b13f8e8fa5d093ad57f5c64913d1"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/src/lib/device.constants.ts",
+          "hash": "sha256:cc19abb63e756cb32312c6f5085e92fb32d3a45417e260c573aad23d5e3f4805"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/shared/permissions",
+      "package": "device-permissions",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/src/lib/device.permissions.ts",
+          "hash": "sha256:2a6953e8b3bd55b5241ba185a2b3c6f001b8e9ce4b44566acf8c57bcd9da2c3c"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/shared/types",
+      "package": "device-types",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/types/device-types/src/lib/device.dto.ts",
+          "hash": "sha256:8932cf2c75adf52d4e21543d6a577c715beaeafdf47a19b1593fd653aff2032f"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/src/lib/device.interface.ts",
+          "hash": "sha256:86d7a6401e135670afd2dbe59746f0c2efa2b191ae74243c20c5b1f33b5ddf7b"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/data-access",
+      "package": "device-api",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/DeviceApiService.ts",
+          "hash": "sha256:dc578ac85e7f2ab1fdc816e5c65d679f541aab4d8750f9eff2d3e30035613b54"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useCreateDevice.ts",
+          "hash": "sha256:42120602d194f4d80473ccb8784bfd22f2025ff79b44544d90d0e44baf10463b"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useDeactivateDevice.ts",
+          "hash": "sha256:1487dac50545b9928f30980cd8edcdbea8883c3f5529c6fb1f1f95bdb38e5879"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useDeleteDevice.ts",
+          "hash": "sha256:e3aa6e0fccb6ea02f63f549ea33ecec3ca3d8d9d43748e8f84b359d350da13d7"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useDeviceGenerateQrCodeQuery.ts",
+          "hash": "sha256:70ed23f74d952eac82c26d7e1382b31019ba6d3b66f0192d49cb49fe31c99aaa"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useDeviceQuery.ts",
+          "hash": "sha256:4155972c034af0e7046708a9a6095a1292f8b4620488387d7d7f3e88515c734c"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useDevicesQuery.ts",
+          "hash": "sha256:a92c9904ced26f6835a9cb11065809c6be83ae602daf5960e5f100139c1afdfe"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useMoveDevice.ts",
+          "hash": "sha256:36b708180739c7b61c86261fd1f8c6dda10bd994039f7f00fd8499c1516c706f"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useReplaceDevice.ts",
+          "hash": "sha256:951903beba2ae45ffce8b4d3dc3fb537a0a4f354340477820eb27acebac30d3b"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/lib/useUpdateDevice.ts",
+          "hash": "sha256:1089ed67c1f981b8b28e402dcdd03bd8aa863409f32c1b1a855c03e4b64b5f61"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/deactivate",
+      "package": "device-deactivate",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/src/lib/DeviceDeactivate.vue",
+          "hash": "sha256:5a59648a4d6509dc508bbea0109b6bc719379e2c6e80917488a493a11a7edcb6"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/form",
+      "package": "device-form",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-form/src/lib/DeviceForm.vue",
+          "hash": "sha256:7031c698088acb76c6b3b39f70af753ab9a4413ef9e58f72ee21ac7197dd39b9"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/form-provider",
+      "package": "device-form-provider",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/src/lib/DeviceFormProvider.vue",
+          "hash": "sha256:d2752ab9eb3598d406431e7a3ba1a3340b4cac29879a7c201aff19266b5b85e1"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/generate-qr-code",
+      "package": "device-generate-qr-code",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/src/lib/DeviceGenerateQrCode.vue",
+          "hash": "sha256:0c673f8e8e0beff75d4d77afb8b9cd87e06a83aec5d3ed6648d6ef7571d550dd"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/link",
+      "package": "device-link",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-link/src/lib/DeviceLink.vue",
+          "hash": "sha256:7bca8e9a4d569e62c644064199db9d7755c4b6efc781863752fd89d822b7d0bf"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/move",
+      "package": "device-move",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-move/src/lib/DeviceMove.vue",
+          "hash": "sha256:c7ad4b7fac261bd589b0e5419bd9ba0bf7389eed0491af44553bb49341773529"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/replace",
+      "package": "device-replace",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-replace/src/lib/DeviceReplace.vue",
+          "hash": "sha256:cee7deb5a0e5d267b3b8f6e449995c0f24d56fb8d3aa7d693c8b354ebd92e260"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/selector",
+      "package": "device-selector",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-selector/src/lib/DeviceSelector.vue",
+          "hash": "sha256:ef39c5252dcbc5846e37c9cbc1f044138bfd195aa732b2c43dc7d184078c79cf"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/table",
+      "package": "device-table",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-table/src/lib/DeviceTable.vue",
+          "hash": "sha256:1f544b6c9369b17075b72cc12609ebad0d328875e06a283943c19270704191ae"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/feature/table-provider",
+      "package": "device-table-provider",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/src/lib/DeviceTableProvider.vue",
+          "hash": "sha256:35956ed22cf982c967a4c6f84fe460ac6bc8ffdabaf081a2372792d154e6f5ed"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/page/create",
+      "package": "device-pages",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/page/device-pages/src/lib/create/DeviceCreatePage.vue",
+          "hash": "sha256:9e11c83ed4db93218cf369392c5a8cac61819c4d07a1649c96ec72640f607532"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/page/details",
+      "package": "device-pages",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/page/device-pages/src/lib/details/DeviceDetailsPage.vue",
+          "hash": "sha256:c5cf0925d98f5a43420e7e012102c5f4d6d9d9fc7596e8abcf78a179c23b3092"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/page/edit",
+      "package": "device-pages",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/page/device-pages/src/lib/edit/DeviceEditPage.vue",
+          "hash": "sha256:332d1e92fc57008acddf1130dc056683a6adec44777673e9881f569314dc85cc"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/page/list",
+      "package": "device-pages",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/page/device-pages/src/lib/list/DeviceListPage.vue",
+          "hash": "sha256:0ff2a23905462c771f482d8487a6b349c39a105b512b15915d1aaa963d677a4f"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/routing",
+      "package": "device-routes",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/routing/device-routes/src/lib/routeBuilders.ts",
+          "hash": "sha256:c97e1067acd5cd95b8088fe559f7648a939142e2089d9dd33a1faef3851f61b4"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/src/lib/routes.ts",
+          "hash": "sha256:ffac5573e349cf7e69b0d400ed0a8f9ff76c7e638b7a24f9505fdb6fe8247a9e"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/device/web/ui/status",
+      "package": "device-status",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/device/web/ui/device-status/src/lib/DeviceStatus.vue",
+          "hash": "sha256:c604bb633dcd35d4cfb2de2a0a4e3d0e8c78f74144c20b1e4d1ae0802c110daa"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/server/model",
+      "package": "inspection-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/model/inspection.entity.ts",
+          "hash": "sha256:b3443138bea5f6eae06e93dcdd3fdb102a1f8d8a2888213ca267bbde22eb7277"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/server/rest",
+      "package": "inspection-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/rest/dto/create-inspection.dto.ts",
+          "hash": "sha256:2ecab80cc3b0928fab6edfca332c3d5dd7441a35b8764c7556608039947114e5"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/rest/dto/index.ts",
+          "hash": "sha256:aa3992070f561e4565df3fc48da5f58fa9d71be04b4a0767fa2887f2481bd9d7"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/rest/dto/update-inspection.dto.ts",
+          "hash": "sha256:13f95bd319ebcfae3d962c117373f3dcd9e70e653eba774af846e2c26dfc85c2"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/rest/inspection-controller.module.ts",
+          "hash": "sha256:a1006d85ff7aed87b8702711fb11614c86ab9f995a70372dd0186ffea4a8c884"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/rest/inspection.controller.ts",
+          "hash": "sha256:2e1817eb350eacf23a833ef84ef0de1b248bf89becbed21868c50757532c41ed"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/server/service",
+      "package": "inspection-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/service/inspection-service.module.ts",
+          "hash": "sha256:d59c956d37544fd2cad001d63591b1b621f22b1a20b4bc7b5e79b8f10fb1144c"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/lib/service/inspection.service.ts",
+          "hash": "sha256:778553a803c3287b53b540d3ea3ab7a1407c12b955b4578c2886a14a738761ae"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/shared/constants",
+      "package": "inspection-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-shared/src/lib/constants/inspection-error-codes.constants.ts",
+          "hash": "sha256:75e48cdfd6854831aa47074f7fb63fbc738d3a0942664418ce7cb7dc56d4435d"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/src/lib/constants/inspection.constants.ts",
+          "hash": "sha256:1a4c4ed425415009c1c0cd97c4002133be5d08b30d0be2ba69f476cea4c312ab"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/shared/types",
+      "package": "inspection-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-shared/src/lib/types/inspection.dto.ts",
+          "hash": "sha256:771340db2001c9c34f9b9ad70608d952fb3917198a8dc2f16f8995c575822198"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/src/lib/types/inspection.interface.ts",
+          "hash": "sha256:755353e8dc0c3796e13c8a8242104af4fcebb1401cebce71424e78a8d045ed03"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/data-access",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/data-access/InspectionApiService.ts",
+          "hash": "sha256:61de139d8e43c4a84566ce07c74e874e0bf0fe9d496017da04f61f721af4ca14"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/data-access/useCreateInspection.ts",
+          "hash": "sha256:e0c975b57fdf8d0c431456876e7911fe2285f351ee12251d9f3c1a0a2c07cb8d"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/data-access/useInspectionQuery.ts",
+          "hash": "sha256:5099419b5ce3aed95b82dafe3c88011649784bede39f6d52b8fe6896c684734c"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/data-access/useInspectionsQuery.ts",
+          "hash": "sha256:ceab2dac61153ac750ebcab3d4c5371c481bbd54695e6116783cdaaf4f16bb77"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/data-access/useTransitionInspection.ts",
+          "hash": "sha256:f57687e316f4eab508da55c7a8b49eaf1c9b96e22535e5ab246a3081be3a6bbd"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/actions",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/actions/InspectionActions.vue",
+          "hash": "sha256:85ab43a089256207a0b7927a18db17bf967acbe9554f60dbfb420cb5e09891dd"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/filter",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/filter/InspectionFilter.vue",
+          "hash": "sha256:07489c3387f1d8d9bdb7e548ad3f5eb2353603575aa3d43108b3b661252cfe6c"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/form",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/form/InspectionForm.vue",
+          "hash": "sha256:91a5a8c9267bb8ed1fcdaff80571b6fdb0d929e0c7b048967f904fc30cbe5293"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/form-provider",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/form-provider/InspectionFormProvider.vue",
+          "hash": "sha256:9c35858046101a9165fba63fdb8ea997af412879d1a8c6a6a1e8307e068556d7"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/selector",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/selector/InspectionSelector.vue",
+          "hash": "sha256:fccb24a33c917716845cc8fabd77361d3ccdb21e652c409ee902fc27fd1101c4"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/table",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/table/InspectionTable.vue",
+          "hash": "sha256:13cda3f317a286a93a5b4c8071420b3d3cd52188b029c0504287361174fbeeb2"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/feature/table-provider",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/feature/table-provider/InspectionTableProvider.vue",
+          "hash": "sha256:c47e3c4ec39aea402b4e140215776ed1e5ec62dc384ea02c111c2a46b7ae41bf"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/page/create",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/page/create/InspectionCreatePage.vue",
+          "hash": "sha256:822f961c2cffa386d677d7a60851f00e39c398b12df37bb6c7bde413b87c5105"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/page/details",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/page/details/InspectionDetailsPage.vue",
+          "hash": "sha256:382ebf1b6cef19bff63bea0b06a21d5914c215f7b15e4d703f4d7330b7fec691"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/page/list",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/page/list/InspectionListPage.vue",
+          "hash": "sha256:c489eb99c229cb3638a0835388397f54f74cdb6e5944c542247f105fc9802419"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/inspection/web/routing",
+      "package": "inspection-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/routing/routeBuilders.ts",
+          "hash": "sha256:34a0ed563afc1826feaa09c82764f52274bb48b242dabf32af0d4bf9f812438c"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/lib/routing/routes.ts",
+          "hash": "sha256:a422b939e60d3d3e913afe7e89cf60b1f1dcba78c9d9505e87fbb25899489548"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/server/model",
+      "package": "location-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-server/src/lib/model/location.entity.ts",
+          "hash": "sha256:e56334bf164fbd89ff97d597a0e5c701c633df71a309f7c460af771cb05a8e33"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/server/rest",
+      "package": "location-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-server/src/lib/rest/dto/create-location.dto.ts",
+          "hash": "sha256:d8865cb993f45208197288f465c5ea2eda5ecb21891f7d2c0edb1ba262522de9"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/lib/rest/dto/index.ts",
+          "hash": "sha256:362f2f09f212194740bfce343019ec1589dc900463fdeaa6843ad6284349b31e"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/lib/rest/dto/update-location.dto.ts",
+          "hash": "sha256:a1ebed28b1390eaa7bd3ae380e126f1c254ade1cbc303b7d1c84e6fd25a9e82e"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/lib/rest/location-controller.module.ts",
+          "hash": "sha256:a52cd14080e2f99745918c10b855a6dbdc9f3ad4b4f089ac24dd2c0ddeef870e"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/lib/rest/location.controller.ts",
+          "hash": "sha256:2a9534e9a239270b1bcdaa8d719e53dd69de17c3cf1a66dd67e6445b3b3fa915"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/server/service",
+      "package": "location-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-server/src/lib/service/location-service.module.ts",
+          "hash": "sha256:5136845e9346bff8f22c6d4edb39a6bf57cfb329a5318a8f826b64e73771499c"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/lib/service/location.service.ts",
+          "hash": "sha256:d62b19bdd3b7f1470f0e4fd317d7e43fa0e1715c9218333969d850466ff298a4"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/shared/constants",
+      "package": "location-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-shared/src/lib/constants/location-error-codes.constants.ts",
+          "hash": "sha256:4321dda4fbaa64ecae1cbfd2cd3c9157eefd41b4bc9e9e5942d5146fe5d663d4"
+        },
+        {
+          "path": "libs/acme/location/location-shared/src/lib/constants/location.constants.ts",
+          "hash": "sha256:db9778f0d14299bc92e7c2996b0e7c31815459747c71b2be9eef8f37c337eea0"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/shared/types",
+      "package": "location-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-shared/src/lib/types/location.dto.ts",
+          "hash": "sha256:04ac52463ed27a6d07aae1eaa4ad47ebc57faa23068b742d79cce17bdad835dd"
+        },
+        {
+          "path": "libs/acme/location/location-shared/src/lib/types/location.interface.ts",
+          "hash": "sha256:b095c0badd5c638b0e673235ed19070f0303dc544abc5044aeae73c671770080"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/web/data-access",
+      "package": "location-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-web/src/lib/data-access/LocationApiService.ts",
+          "hash": "sha256:2380ff13504c45d47be5165d0774058fb5992fa54b719d001ee4a6562a166d52"
+        },
+        {
+          "path": "libs/acme/location/location-web/src/lib/data-access/useLocationQuery.ts",
+          "hash": "sha256:6ecaaa0dd5243999d685cec9ac05e95dd0e4a4861a2ed9168b6d19b306cdf7c2"
+        },
+        {
+          "path": "libs/acme/location/location-web/src/lib/data-access/useLocationsQuery.ts",
+          "hash": "sha256:11c2997a4da0b7f5cb275edf244ad0c484dc2c3af2339ed4d6e542ba12c42d1e"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/web/feature/link",
+      "package": "location-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-web/src/lib/feature/link/LocationLink.vue",
+          "hash": "sha256:3c23d2054cf82e03c80f97c1eb6ed00f78f22bcdd9cc0d9379017b5b7c667f55"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/web/feature/selector",
+      "package": "location-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-web/src/lib/feature/selector/LocationSelector.vue",
+          "hash": "sha256:5f7193de33f3038ea6af743e59523e2224eb1037f7efc0348a750e497bad2dcb"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/location/web/routing",
+      "package": "location-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/location/location-web/src/lib/routing/routeBuilders.ts",
+          "hash": "sha256:44b9b399039e6609457468acb6bbe4df656d712213d2eb1f36c4692fa10ef25a"
+        },
+        {
+          "path": "libs/acme/location/location-web/src/lib/routing/routes.ts",
+          "hash": "sha256:73ae626d8ebb7dd2b2c0e65b25bf6e940d8e31ed7342f556411c54448495d1bc"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "acme-admin-web",
+      "path": "apps/acme/admin-web",
+      "importAlias": "@acme/admin-web",
+      "files": [
+        {
+          "path": "apps/acme/admin-web/README.md",
+          "hash": "sha256:37898be217bda97a0acf61836015035c1e81a18db3210e5c8f78c94efc218651"
+        },
+        {
+          "path": "apps/acme/admin-web/project.json",
+          "hash": "sha256:19704cd554b2b37475618480dfdd5f4a52e542850de553c7449496b3b166fe75"
+        },
+        {
+          "path": "apps/acme/admin-web/tsconfig.json",
+          "hash": "sha256:97c5b834546976168b30ea0f207d1d9de2c8d08cddbb1a5d3542b20e3bca5438"
+        }
+      ]
+    },
+    {
+      "id": "acme-api",
+      "path": "apps/acme/api",
+      "importAlias": "@acme/api",
+      "files": [
+        {
+          "path": "apps/acme/api/README.md",
+          "hash": "sha256:1819f440335e5a1e4c948193b3a3fa75651015d77817bf8f8cdd9e7fd1419094"
+        },
+        {
+          "path": "apps/acme/api/project.json",
+          "hash": "sha256:9f4aee95da227a63a721fffc58cdf07894d9db26ce3ad497525e74fb31252693"
+        },
+        {
+          "path": "apps/acme/api/tsconfig.json",
+          "hash": "sha256:7862ea33793b57904d6c7b2f196f981d91da8f6acbdd8a70d93b49d77393d7db"
+        }
+      ]
+    },
+    {
+      "id": "device-api",
+      "path": "libs/acme/device/web/data-access/device-api",
+      "importAlias": "@acme/device/web/device-api",
+      "files": [
+        {
+          "path": "libs/acme/device/web/data-access/device-api/README.md",
+          "hash": "sha256:ccec61726a92170815f71f232e6a9053c827be076c1f19fd0c8a05fdff5aa8d2"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/project.json",
+          "hash": "sha256:d450919beef759be20b895b844999c8ee831af204c821a949088f3c5c05a8ea0"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/src/index.ts",
+          "hash": "sha256:805bd2d1191575b000740843d2d1786c26652d9a24da10db4a787ded424d0114"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/data-access/device-api/vite.config.ts",
+          "hash": "sha256:0520fee22a43bbed97064e8efe2b6cf876066c7a6289f801b648d5aa3fbdb9bd"
+        }
+      ]
+    },
+    {
+      "id": "device-constants",
+      "path": "libs/acme/device/shared/constants/device-constants",
+      "importAlias": "@acme/device/shared/device-constants",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/README.md",
+          "hash": "sha256:d359d041c346993a96c15ae16d5d367886c33ca7bb10305225154407b35d43fc"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/project.json",
+          "hash": "sha256:94ab61df6af7641195b38c5ffcc25bbb454081cd05d3c2e5cce89106d3d63cae"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/src/index.ts",
+          "hash": "sha256:1ca3f83dbf01d87a7e14f78cb64b736f1b8bb0c81df552400b1660453f686788"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/shared/constants/device-constants/vite.config.ts",
+          "hash": "sha256:e2cd35cff1d5d9622ae84409a394ff245ee88c565fbefba0d1067d061e394dbe"
+        }
+      ]
+    },
+    {
+      "id": "device-controller",
+      "path": "libs/acme/device/server/rest/device-controller",
+      "importAlias": "@acme/device/server/device-controller",
+      "files": [
+        {
+          "path": "libs/acme/device/server/rest/device-controller/README.md",
+          "hash": "sha256:22961686a1f541c9f7f4b77527fa618a7a0656064a5ce4ccdfcc9b0bca84c8a9"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/project.json",
+          "hash": "sha256:8871246c1320809a081535765d74376ea4811a6b92be0186f0e466fe127cbc3d"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/src/index.ts",
+          "hash": "sha256:175a82465175c5175b27c65825da0edb2b1d4da854f33d07f4afc95965e4d511"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/server/rest/device-controller/vite.config.ts",
+          "hash": "sha256:368889ec0a33c0bab33f0a2fe9d9f0242d02763a78cae4c079fdbd0d16061be7"
+        }
+      ]
+    },
+    {
+      "id": "device-deactivate",
+      "path": "libs/acme/device/web/feature/device-deactivate",
+      "importAlias": "@acme/device/web/device-deactivate",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/README.md",
+          "hash": "sha256:288aa664d1ca917b8ebf0520edae3954dc0b15916a298fc1c2ecfd8148eb76e7"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/project.json",
+          "hash": "sha256:44d9710ea0107e35bdee392fd9d9cf70ee631e8c19f105ab93667a2f6fb26e82"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/src/index.ts",
+          "hash": "sha256:d5b393d9964b857591f242a6699460ca0efa971962b198648d24f33358354b9b"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-deactivate/vite.config.ts",
+          "hash": "sha256:bce59b065f52c25dd953d8d8c44fd2a9ef12bc7916a0fafa1bd05f2fc48059b2"
+        }
+      ]
+    },
+    {
+      "id": "device-form",
+      "path": "libs/acme/device/web/feature/device-form",
+      "importAlias": "@acme/device/web/device-form",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-form/README.md",
+          "hash": "sha256:61d88464c3c0db74027bc81d113c80bad79c8988399dcf552a20e6206c33ef5a"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form/project.json",
+          "hash": "sha256:5f49d6768796cf30a0962d15ce3c6acba5a1b52adfa0379a87eb829380d734b4"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form/src/index.ts",
+          "hash": "sha256:ecd6cb167dbd0f73d6b3ab2c32993dbad43c27cb650cd55f870d753252af8c0f"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form/vite.config.ts",
+          "hash": "sha256:7fc200348d049bb2e06db02c0d4a82be3ccfa6e1c078aa25ff41639cc13318ba"
+        }
+      ]
+    },
+    {
+      "id": "device-form-provider",
+      "path": "libs/acme/device/web/feature/device-form-provider",
+      "importAlias": "@acme/device/web/device-form-provider",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/README.md",
+          "hash": "sha256:2a13510921b3e32239bcaaf3b61dc5c7443f56e22749d6fd83d90c867d1f616e"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/project.json",
+          "hash": "sha256:ad62574862fc30223160791a225525266c8bdf6624fb09adc018959acb612298"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/src/index.ts",
+          "hash": "sha256:b27fb711723bb15b1c374b86cc1a3f4ee75a7eb45c92268d3cf349417f9c197d"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-form-provider/vite.config.ts",
+          "hash": "sha256:d757c7cd16da8841f1116c53347b2b0988412baa4c0c85e20f9b0e174156a4cd"
+        }
+      ]
+    },
+    {
+      "id": "device-generate-qr-code",
+      "path": "libs/acme/device/web/feature/device-generate-qr-code",
+      "importAlias": "@acme/device/web/device-generate-qr-code",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/README.md",
+          "hash": "sha256:07c34338a492cb0262dc3c4c7bb4524faa680b649da23808de12fb0532d2d79e"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/project.json",
+          "hash": "sha256:c849a7ccd31808d93c2496db255514dd78aaa25e0d8d5c223febf95b2c4aed7a"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/src/index.ts",
+          "hash": "sha256:e1dc7f3e8cc720ca7d8d56414fcb795babf27b352c55b516d63641edaea2193a"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-generate-qr-code/vite.config.ts",
+          "hash": "sha256:ca69c9a6148e7bc0efd6dac6d01d01d1af2b1cefdecf8d18b4b9c993f8bc5a87"
+        }
+      ]
+    },
+    {
+      "id": "device-link",
+      "path": "libs/acme/device/web/feature/device-link",
+      "importAlias": "@acme/device/web/device-link",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-link/README.md",
+          "hash": "sha256:044cc1d95d649e029375ee6f3b0f2789a044c7e5d6943d55164cc46857059746"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-link/project.json",
+          "hash": "sha256:3904cafd9fedd9a6618184b0aa31cf97e751b785a1bbd3dd7cb36f6b3ce717ba"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-link/src/index.ts",
+          "hash": "sha256:674a60960402b437090d8e29a6542a46d387fd73ccc0e5f5aeeeb3cbd8e4d719"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-link/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-link/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-link/vite.config.ts",
+          "hash": "sha256:48979827082aa07540097292d6f3d83cc02619adb0882c7907c8d632199548b4"
+        }
+      ]
+    },
+    {
+      "id": "device-model",
+      "path": "libs/acme/device/server/model/device-model",
+      "importAlias": "@acme/device/server/device-model",
+      "files": [
+        {
+          "path": "libs/acme/device/server/model/device-model/README.md",
+          "hash": "sha256:1745b70104c49e63168b45d7a19a7583dcba94de1f4d8057bf6079751d0c72df"
+        },
+        {
+          "path": "libs/acme/device/server/model/device-model/project.json",
+          "hash": "sha256:a72afad91265cf140fc85f40c994f7ec544d17740b6068776d96f1f6f42fdf17"
+        },
+        {
+          "path": "libs/acme/device/server/model/device-model/src/index.ts",
+          "hash": "sha256:555ded14d0fbcdff341de1074385181bc72fe85f78d619bb605d3c7aff76daec"
+        },
+        {
+          "path": "libs/acme/device/server/model/device-model/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/server/model/device-model/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/server/model/device-model/vite.config.ts",
+          "hash": "sha256:7269f763667071e9f628e2c4e1dded94b42255c7082ea200e80d9b462d9603de"
+        }
+      ]
+    },
+    {
+      "id": "device-move",
+      "path": "libs/acme/device/web/feature/device-move",
+      "importAlias": "@acme/device/web/device-move",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-move/README.md",
+          "hash": "sha256:43ad69670ec098320b8df11cec8a7a38e63af157864af5dce9dae7741ced2f5e"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-move/project.json",
+          "hash": "sha256:5038722743181c606e064a4a4824c0efade39f3ef61d443aeb617527a06dedb6"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-move/src/index.ts",
+          "hash": "sha256:b62b2eabb7e11ce869a16dc86b820cc2696dd395fcfeb4c45ed50fc305f6e77f"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-move/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-move/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-move/vite.config.ts",
+          "hash": "sha256:006bb75b4d898024f9f1e890743be3593df66e5a9e6e7d6e252dd60e5f65219a"
+        }
+      ]
+    },
+    {
+      "id": "device-pages",
+      "path": "libs/acme/device/web/page/device-pages",
+      "importAlias": "@acme/device/web/device-pages",
+      "files": [
+        {
+          "path": "libs/acme/device/web/page/device-pages/README.md",
+          "hash": "sha256:138c1b91778a0cb3b83d630c143f17a0ba1e3bfb45861f5949cd18ff5cf653d5"
+        },
+        {
+          "path": "libs/acme/device/web/page/device-pages/project.json",
+          "hash": "sha256:41d6a2c3ef9b88ac68d5e59753e34042535f104e3189ea0d480366379042da81"
+        },
+        {
+          "path": "libs/acme/device/web/page/device-pages/src/index.ts",
+          "hash": "sha256:607cf95f69faf328cb18d0f90494ecf259d016f78f5e625d4d2ceb21e5850686"
+        },
+        {
+          "path": "libs/acme/device/web/page/device-pages/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/page/device-pages/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/page/device-pages/vite.config.ts",
+          "hash": "sha256:393e2617ba8be7f0d79f35b4d6cadcbf3fef6a05c32d9a7760bf264119bdc812"
+        }
+      ]
+    },
+    {
+      "id": "device-permissions",
+      "path": "libs/acme/device/shared/permissions/device-permissions",
+      "importAlias": "@acme/device/shared/device-permissions",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/README.md",
+          "hash": "sha256:c90b88ae34d36d31204221b2b0b0ee679d389a2d85936ac785ad74ec7a155d9a"
+        },
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/project.json",
+          "hash": "sha256:7548bc7c8505f1402b84a71a6caf29ebe4122d3574ef1d1524bc9c2e21c09f31"
+        },
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/src/index.ts",
+          "hash": "sha256:8971281d5c5ebca5fe5bd88cc97dddb1e9442ad5a4387d18875524a67ab3bfc1"
+        },
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/shared/permissions/device-permissions/vite.config.ts",
+          "hash": "sha256:bc85380fc2b4203e49687ea5f6dd02ad26534e1f13f269067e4222a47f7b635f"
+        }
+      ]
+    },
+    {
+      "id": "device-replace",
+      "path": "libs/acme/device/web/feature/device-replace",
+      "importAlias": "@acme/device/web/device-replace",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-replace/README.md",
+          "hash": "sha256:f70686fe7adee06096faa578ca72c9dbffa285a0f3ff8ce1932ca516ddb29be2"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-replace/project.json",
+          "hash": "sha256:c1eddc1f6390b6f0286583ea55dcd6f5f568de1e512693c4d3fe971b964f5254"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-replace/src/index.ts",
+          "hash": "sha256:3629995e102564d9c41cd62d9601f83975a18f0cb73f73539361b737b5925856"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-replace/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-replace/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-replace/vite.config.ts",
+          "hash": "sha256:11e40391b254e768c7b9178f6c3c55c8d42fb5a4d48c2085366dada0466446d9"
+        }
+      ]
+    },
+    {
+      "id": "device-routes",
+      "path": "libs/acme/device/web/routing/device-routes",
+      "importAlias": "@acme/device/web/device-routes",
+      "files": [
+        {
+          "path": "libs/acme/device/web/routing/device-routes/README.md",
+          "hash": "sha256:9f8ca7d3a1a69e2e886c7ad7d3e0de3714e0fadd2082395ce6e8310b1470e82c"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/project.json",
+          "hash": "sha256:59c0a733a7c4053a383b4143394a562854b9e4c9a288ed27031c31fff896028d"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/src/index.ts",
+          "hash": "sha256:7fa95f837869bafe922a5f07b9a63262d18fd76a3484dc51f91770294e369e8a"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/routing/device-routes/vite.config.ts",
+          "hash": "sha256:28abfeca4dd72e55e0cb3cd1d1cf70e59bb7d1759241ebdc39e113bc17c6e4c6"
+        }
+      ]
+    },
+    {
+      "id": "device-selector",
+      "path": "libs/acme/device/web/feature/device-selector",
+      "importAlias": "@acme/device/web/device-selector",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-selector/README.md",
+          "hash": "sha256:1cda302fc979b6761c5d8ee9c105950a7d29ed159ef8585902695bf03f5c5bca"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-selector/project.json",
+          "hash": "sha256:d75f8947b675597036e8c84bd1740c79dc4bdcca4ea152e4a45a7c87590987ee"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-selector/src/index.ts",
+          "hash": "sha256:ff72d75a5115253a84a14b2daf6666e4a964fa6c60817d607bc84dd43632599c"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-selector/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-selector/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-selector/vite.config.ts",
+          "hash": "sha256:b5fcbd79d2e8afd34cbcc0deead0f74974afaca5b4e9559fb69694e2be2dabfa"
+        }
+      ]
+    },
+    {
+      "id": "device-service",
+      "path": "libs/acme/device/server/service/device-service",
+      "importAlias": "@acme/device/server/device-service",
+      "files": [
+        {
+          "path": "libs/acme/device/server/service/device-service/README.md",
+          "hash": "sha256:1a7995c2b7c0425cb464d8d5d897604ab86b781711d20f2ecf3839b2ac692690"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/project.json",
+          "hash": "sha256:7c2ba5cd5d0057043d2d5655dd6533228b3d9a6042efd1e7ded9d2feaaeb5a6b"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/src/index.ts",
+          "hash": "sha256:6023ab23e35b2c865229bbc0656d73a3b12f43e0faa7ea94cab65e0a034fba4a"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/server/service/device-service/vite.config.ts",
+          "hash": "sha256:0ca662722a172b601cc41167d8d5c7d82a4dcd32b4ef91b321272daa58f790c9"
+        }
+      ]
+    },
+    {
+      "id": "device-status",
+      "path": "libs/acme/device/web/ui/device-status",
+      "importAlias": "@acme/device/web/device-status",
+      "files": [
+        {
+          "path": "libs/acme/device/web/ui/device-status/README.md",
+          "hash": "sha256:65f80c54031d3907c8a886e45f86578bedf888fa87b7e11d2e1f9a440ffc146c"
+        },
+        {
+          "path": "libs/acme/device/web/ui/device-status/project.json",
+          "hash": "sha256:455177022aa58708b2c4de9d07647dd34068f20203fdfb4007ce929aa1c91c36"
+        },
+        {
+          "path": "libs/acme/device/web/ui/device-status/src/index.ts",
+          "hash": "sha256:ae5c92e0e72b594a2f76eb484c6a6a83ebb49579e5299f556aca8da3e545d039"
+        },
+        {
+          "path": "libs/acme/device/web/ui/device-status/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/ui/device-status/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/ui/device-status/vite.config.ts",
+          "hash": "sha256:07479608ec82be78e932cec71928575ebf24936fadc2bc55962bb774aaf8ce50"
+        }
+      ]
+    },
+    {
+      "id": "device-table",
+      "path": "libs/acme/device/web/feature/device-table",
+      "importAlias": "@acme/device/web/device-table",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-table/README.md",
+          "hash": "sha256:536501f8a0c6749782858b6b2a1a7430978c59a4cb00a7fc9b92083ee16909d2"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table/project.json",
+          "hash": "sha256:ea32ac714a9755059bfa86d10d22bbfac34545856de13925efb49df68c0e9ba8"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table/src/index.ts",
+          "hash": "sha256:bff639c736379ef417b25ed5331ed9b47416ccfa9d41009b9a5149a0a4ba8b1c"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table/vite.config.ts",
+          "hash": "sha256:c74e8db2c2c646d0f4a0584b092bf70681e26642e39d45e53be03f546a10a0d1"
+        }
+      ]
+    },
+    {
+      "id": "device-table-provider",
+      "path": "libs/acme/device/web/feature/device-table-provider",
+      "importAlias": "@acme/device/web/device-table-provider",
+      "files": [
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/README.md",
+          "hash": "sha256:e0db7303afd61ab73969f62c1b8695523676e8d521797e6e8874c5ea71664581"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/project.json",
+          "hash": "sha256:b1c213f3cc1dba4f1cc1eb31d82ae06c69aece77b3bd9a88a75f25e388d0f345"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/src/index.ts",
+          "hash": "sha256:77b06bc812d3e8280c50d3ba8e4f21655999fac0f3e80c91662094e6612f25e2"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/device/web/feature/device-table-provider/vite.config.ts",
+          "hash": "sha256:5a44a62aa418229fd21617aafd876c77deeec74abc98ccebfd1f44df48eba769"
+        }
+      ]
+    },
+    {
+      "id": "device-types",
+      "path": "libs/acme/device/shared/types/device-types",
+      "importAlias": "@acme/device/shared/device-types",
+      "files": [
+        {
+          "path": "libs/acme/device/shared/types/device-types/README.md",
+          "hash": "sha256:56eb7eda3e6ab5c9d29c17d1d31f1f88bf836c1d37116e13eb60f6fa5ee182f4"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/project.json",
+          "hash": "sha256:d36cdb4bc6e26f4408d2c72e2bca1081ab70b34b981ffa80cd038424f344417a"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/src/index.ts",
+          "hash": "sha256:a5625f62a7a1e0a2ff8e17c275816b9d9f5c9409b7d0a8b46bb578108abbeca6"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/device/shared/types/device-types/vite.config.ts",
+          "hash": "sha256:1f8547a2c9be7e27572c393dac2d8bb7f96e14cb28fb37976dedfd87082b876e"
+        }
+      ]
+    },
+    {
+      "id": "inspection-server",
+      "path": "libs/acme/inspection/inspection-server",
+      "importAlias": "@acme/inspection/server/inspection-server",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-server/README.md",
+          "hash": "sha256:9e0ebe95af6bd5e2ce43736f5d26433770a37e633f8c504faec2cc77ed0e295a"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/project.json",
+          "hash": "sha256:6c2534e2b00e2531b7c67555a719d7a2811008d86596867f4982a93bd302f01c"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/src/index.ts",
+          "hash": "sha256:a7c6fd057f7de7967e80edbfe30d3d3306c5df60c98cdbde6d41f2fa62808dab"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-server/vite.config.ts",
+          "hash": "sha256:719564fe6d2678006a969d8dc1b43aae87623a55cc4d73bf324b7cfb4b794759"
+        }
+      ]
+    },
+    {
+      "id": "inspection-shared",
+      "path": "libs/acme/inspection/inspection-shared",
+      "importAlias": "@acme/inspection/shared/inspection-shared",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-shared/README.md",
+          "hash": "sha256:42717741f7cc40a1d853ebbc98470b7dc750540a133cd27c11a9708641b4752e"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/project.json",
+          "hash": "sha256:30bed628b60464e5c489b7420a6aa21381b1b65525cee66f5582bb5c15544af6"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/src/index.ts",
+          "hash": "sha256:00b8d88354e79d515b21fcc65bb6bc79c283229ddfb8f796378754d0537da142"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-shared/vite.config.ts",
+          "hash": "sha256:8da30316063b85283dbc277e804d31d20e994f05ed07cdd78b643ed5c0e8f522"
+        }
+      ]
+    },
+    {
+      "id": "inspection-web",
+      "path": "libs/acme/inspection/inspection-web",
+      "importAlias": "@acme/inspection/web/inspection-web",
+      "files": [
+        {
+          "path": "libs/acme/inspection/inspection-web/README.md",
+          "hash": "sha256:d92de20e78e24cdda30b848bcf066fad71f73cbdd2b1974acaebe055697e0293"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/project.json",
+          "hash": "sha256:0ae094b7e73f3c59714b80599a49f50d898b414dbc54e58b0acce1aaf463fc40"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/src/index.ts",
+          "hash": "sha256:9034c2db1ca87f3c1f72007731df56b72d0105fcd8c7b417d13946a8cd48094e"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/tsconfig.lib.json",
+          "hash": "sha256:c78d22cf48d3415ec4972c6ab2cab5d1f87be7b6262a741487bbb8dfe258eb9d"
+        },
+        {
+          "path": "libs/acme/inspection/inspection-web/vite.config.ts",
+          "hash": "sha256:112b35235e004bc63e555fef117a3596c7b54d98fcece9c4016da7baf7e3e946"
+        }
+      ]
+    },
+    {
+      "id": "location-server",
+      "path": "libs/acme/location/location-server",
+      "importAlias": "@acme/location/server/location-server",
+      "files": [
+        {
+          "path": "libs/acme/location/location-server/README.md",
+          "hash": "sha256:1af0763afd7e95da0ef2cb80a55e0d3f30948bc1df8fd296d7a041edfa46cb38"
+        },
+        {
+          "path": "libs/acme/location/location-server/project.json",
+          "hash": "sha256:163d8f6442905b369a2ea57b9e6493ab00f611679fbabcd8f5144d97412050db"
+        },
+        {
+          "path": "libs/acme/location/location-server/src/index.ts",
+          "hash": "sha256:24fd01980413edb3609dffa5f50032988c012f9ebfff6a3660af8f4ff0c37901"
+        },
+        {
+          "path": "libs/acme/location/location-server/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/location/location-server/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/location/location-server/vite.config.ts",
+          "hash": "sha256:5b9007ab019ae852c60e2e2cef471caeca026dea303e4947cb427a56e2010c80"
+        }
+      ]
+    },
+    {
+      "id": "location-shared",
+      "path": "libs/acme/location/location-shared",
+      "importAlias": "@acme/location/shared/location-shared",
+      "files": [
+        {
+          "path": "libs/acme/location/location-shared/README.md",
+          "hash": "sha256:afe4be900d1f231e5ec4c6ae2ac8cb40cde931ac002e8c83d390e4d28771c514"
+        },
+        {
+          "path": "libs/acme/location/location-shared/project.json",
+          "hash": "sha256:46deb16b19ebb7b0d40349717538a9333a9da719823c783ab4b4dc27c03e62e3"
+        },
+        {
+          "path": "libs/acme/location/location-shared/src/index.ts",
+          "hash": "sha256:d8629d50c6b3c8433a8897d650936160337fcde882acc1d44e15057719aa586f"
+        },
+        {
+          "path": "libs/acme/location/location-shared/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/location/location-shared/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/location/location-shared/vite.config.ts",
+          "hash": "sha256:7885db7d3a14968a0e4cbb4a5978547caf259f3609af8219ae9caf067e4b7f32"
+        }
+      ]
+    },
+    {
+      "id": "location-web",
+      "path": "libs/acme/location/location-web",
+      "importAlias": "@acme/location/web/location-web",
+      "files": [
+        {
+          "path": "libs/acme/location/location-web/README.md",
+          "hash": "sha256:d112c360bd9c643924e78ab29fb99ef8edf8a7636a683ad5a184fe4ec9cd2f7f"
+        },
+        {
+          "path": "libs/acme/location/location-web/project.json",
+          "hash": "sha256:2f8725486763a6ccb394c8276c7d221e68679a6f77bf935cf66b621d208ad718"
+        },
+        {
+          "path": "libs/acme/location/location-web/src/index.ts",
+          "hash": "sha256:1c581fefb1fb609500a5b6593c56999e1fafec20b087a491a1b30ede20e7e046"
+        },
+        {
+          "path": "libs/acme/location/location-web/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/location/location-web/tsconfig.lib.json",
+          "hash": "sha256:c78d22cf48d3415ec4972c6ab2cab5d1f87be7b6262a741487bbb8dfe258eb9d"
+        },
+        {
+          "path": "libs/acme/location/location-web/vite.config.ts",
+          "hash": "sha256:3a38dc64bdcafed52b1d5c3096014a07efc59b3d189973990ad173ab4bb98d81"
+        }
+      ]
+    }
+  ],
+  "workspace": [
+    {
+      "path": "tsconfig.blueprint.json",
+      "hash": "sha256:d7307447dfdd19cc21c22f99d06a37e3a874bb45db3f8b3d958a2e4fae9b54e0",
+      "purpose": "import-alias registry"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "device-status",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/web/ui/device-status/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:web", "layer:ui"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
