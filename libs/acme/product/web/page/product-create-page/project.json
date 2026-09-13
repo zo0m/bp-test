@@ -1,0 +1,16 @@
+{
+    "name": "product-create-page",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/web/page/product-create-page/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:web", "layer:page"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
