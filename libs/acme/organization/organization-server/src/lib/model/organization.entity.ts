@@ -8,4 +8,11 @@ export class Organization extends BaseEntity {
         length: 120,
     })
     name!: string;
+
+    @Column({
+        type: 'varchar',
+        length: 60,
+        nullable: true,
+    })
+    nickname?: string;
 }

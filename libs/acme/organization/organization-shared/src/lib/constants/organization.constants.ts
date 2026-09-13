@@ -1,4 +1,5 @@
 export const ORGANIZATION_NAME_MAX_LENGTH = 120;
+export const ORGANIZATION_NICKNAME_MAX_LENGTH = 60;
 
 export const ORGANIZATION_API_PATH = '/organizations';
 
