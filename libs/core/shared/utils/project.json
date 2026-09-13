@@ -1,0 +1,16 @@
+{
+    "name": "core-shared-utils",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/core/shared/utils/src",
+    "projectType": "library",
+    "tags": ["scope:core", "domain:core", "platform:shared", "layer:utils"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

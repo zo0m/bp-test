@@ -1,0 +1,16 @@
+{
+    "name": "product-form-provider",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/web/feature/product-form-provider/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:web", "layer:feature"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
