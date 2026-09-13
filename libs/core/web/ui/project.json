@@ -1,0 +1,16 @@
+{
+    "name": "core-web-ui",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/core/web/ui/src",
+    "projectType": "library",
+    "tags": ["scope:core", "domain:core", "platform:web", "layer:ui"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
