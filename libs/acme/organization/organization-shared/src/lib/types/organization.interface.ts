@@ -1,6 +1,7 @@
 export interface Organization {
     id: string;
     name: string;
+    nickname?: string;
     /** ISO 8601 - dates cross the JSON boundary as strings */
     createdAt: string;
     updatedAt: string;
