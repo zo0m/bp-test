@@ -1,0 +1,16 @@
+{
+    "name": "core-web-data-access",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/core/web/data-access/src",
+    "projectType": "library",
+    "tags": ["scope:core", "domain:core", "platform:web", "layer:data-access"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
