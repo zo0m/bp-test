@@ -3,7 +3,7 @@
   "generatedBy": {
     "generatorVersion": "0.1.0",
     "formatterVersion": "prettier@3.6.2",
-    "projectVersionId": "pv_mtzfanixa677651f",
+    "projectVersionId": "pv_mtzfanj7915de257",
     "catalogs": {
       "archetypes": "blueprint-archetypes@2.3.0",
       "fieldTypes": "blueprint-field-types@2.2.0",
@@ -20,7 +20,7 @@
       "files": [
         {
           "path": "libs/acme/organization/organization-server/src/lib/model/organization.entity.ts",
-          "hash": "sha256:96cf41be07c3113133d5bc7fead2ca862ed8cae0fca4b4851f398c6a9f3d0b14"
+          "hash": "sha256:e15e2086dc15f4b69a54c2c08c96c77ba7fac70cbbbad03d7b744eb3d22ce901"
         }
       ]
     },
@@ -31,7 +31,7 @@
       "files": [
         {
           "path": "libs/acme/organization/organization-server/src/lib/rest/dto/create-organization.dto.ts",
-          "hash": "sha256:a6f8de82e2ed73a0c8b59abbcfedcd20a254039bfec2f761b54864988bd92170"
+          "hash": "sha256:19549c425010c5251fc82ac267b5dbe6b487f5ed8f8c604eb99e0f9c5fd58c55"
         },
         {
           "path": "libs/acme/organization/organization-server/src/lib/rest/dto/index.ts",
@@ -39,7 +39,7 @@
         },
         {
           "path": "libs/acme/organization/organization-server/src/lib/rest/dto/update-organization.dto.ts",
-          "hash": "sha256:22874f91065ececba7c2d92f071785bde5885d74c922f547bdc5142a1da672ac"
+          "hash": "sha256:d7037920661582c2f333be61a0161a79f1bcb1fe8855e90f871ea2244912ed0d"
         },
         {
           "path": "libs/acme/organization/organization-server/src/lib/rest/organization-controller.module.ts",
@@ -77,7 +77,7 @@
         },
         {
           "path": "libs/acme/organization/organization-shared/src/lib/constants/organization.constants.ts",
-          "hash": "sha256:124ff2d5f5272531e047f570431c2599e35de3341a37d51dfa85bdda06ca8b1e"
+          "hash": "sha256:b0dde6f2a3295dd804d96b77f5ac7b27f5e1b8e7010f93c7fb76c3293bc21009"
         }
       ]
     },
@@ -88,11 +88,11 @@
       "files": [
         {
           "path": "libs/acme/organization/organization-shared/src/lib/types/organization.dto.ts",
-          "hash": "sha256:0c0fa1f08e5c96104ff50eacff02eb77a4e3de0c743a41a3490f38f70cc78535"
+          "hash": "sha256:eeaa4e69fd0c414eda83f66c6c967e1df96271c80e79913d151ea12bae8764b2"
         },
         {
           "path": "libs/acme/organization/organization-shared/src/lib/types/organization.interface.ts",
-          "hash": "sha256:d11251ea8981b3c733659298fc7bc658d1ac8752bf660ced45f212887589b843"
+          "hash": "sha256:aa48bb2c1d57158b9edf6d3d94c9f7ae86d8030b3a2a371c0a661c70974722c6"
         }
       ]
     },
