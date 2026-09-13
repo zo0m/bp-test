@@ -1,0 +1,75 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@acme/organization/server/organization-server": [
+                "libs/acme/organization/organization-server/src/index.ts"
+            ],
+            "@acme/organization/shared/organization-shared": [
+                "libs/acme/organization/organization-shared/src/index.ts"
+            ],
+            "@acme/organization/web/organization-web": [
+                "libs/acme/organization/organization-web/src/index.ts"
+            ],
+            "@acme/product/server/product-controller": [
+                "libs/acme/product/server/rest/product-controller/src/index.ts"
+            ],
+            "@acme/product/server/product-model": [
+                "libs/acme/product/server/model/product-model/src/index.ts"
+            ],
+            "@acme/product/server/product-service": [
+                "libs/acme/product/server/service/product-service/src/index.ts"
+            ],
+            "@acme/product/shared/product-constants": [
+                "libs/acme/product/shared/constants/product-constants/src/index.ts"
+            ],
+            "@acme/product/shared/product-permissions": [
+                "libs/acme/product/shared/permissions/product-permissions/src/index.ts"
+            ],
+            "@acme/product/shared/product-types": [
+                "libs/acme/product/shared/types/product-types/src/index.ts"
+            ],
+            "@acme/product/web/product-api": [
+                "libs/acme/product/web/data-access/product-api/src/index.ts"
+            ],
+            "@acme/product/web/product-create-page": [
+                "libs/acme/product/web/page/product-create-page/src/index.ts"
+            ],
+            "@acme/product/web/product-details-page": [
+                "libs/acme/product/web/page/product-details-page/src/index.ts"
+            ],
+            "@acme/product/web/product-edit-page": [
+                "libs/acme/product/web/page/product-edit-page/src/index.ts"
+            ],
+            "@acme/product/web/product-form": [
+                "libs/acme/product/web/feature/product-form/src/index.ts"
+            ],
+            "@acme/product/web/product-form-provider": [
+                "libs/acme/product/web/feature/product-form-provider/src/index.ts"
+            ],
+            "@acme/product/web/product-list-page": [
+                "libs/acme/product/web/page/product-list-page/src/index.ts"
+            ],
+            "@acme/product/web/product-routes": [
+                "libs/acme/product/web/routing/product-routes/src/index.ts"
+            ],
+            "@acme/product/web/product-status": [
+                "libs/acme/product/web/ui/product-status/src/index.ts"
+            ],
+            "@acme/product/web/product-table": [
+                "libs/acme/product/web/feature/product-table/src/index.ts"
+            ],
+            "@acme/product/web/product-table-provider": [
+                "libs/acme/product/web/feature/product-table-provider/src/index.ts"
+            ],
+            "@core/server/database": ["libs/core/server/database/src/index.ts"],
+            "@core/server/rest": ["libs/core/server/rest/src/index.ts"],
+            "@core/shared/constants": ["libs/core/shared/constants/src/index.ts"],
+            "@core/shared/types": ["libs/core/shared/types/src/index.ts"],
+            "@core/shared/utils": ["libs/core/shared/utils/src/index.ts"],
+            "@core/web/data-access": ["libs/core/web/data-access/src/index.ts"],
+            "@core/web/errors": ["libs/core/web/errors/src/index.ts"],
+            "@core/web/ui": ["libs/core/web/ui/src/index.ts"]
+        }
+    }
+}
