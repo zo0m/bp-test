@@ -1,0 +1,16 @@
+{
+    "name": "product-controller",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/server/rest/product-controller/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:server", "layer:rest"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
