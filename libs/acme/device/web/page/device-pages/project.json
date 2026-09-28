@@ -1,0 +1,16 @@
+{
+    "name": "device-pages",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/web/page/device-pages/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:web", "layer:page"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

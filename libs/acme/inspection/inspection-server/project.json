@@ -1,0 +1,16 @@
+{
+    "name": "inspection-server",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/inspection/inspection-server/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:inspection", "platform:server"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

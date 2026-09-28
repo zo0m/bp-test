@@ -1,0 +1,16 @@
+{
+    "name": "device-routes",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/web/routing/device-routes/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:web", "layer:routing"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

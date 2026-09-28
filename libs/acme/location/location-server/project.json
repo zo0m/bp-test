@@ -1,0 +1,16 @@
+{
+    "name": "location-server",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/location/location-server/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:location", "platform:server"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

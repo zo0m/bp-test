@@ -1,0 +1,8 @@
+{
+    "name": "acme-admin-web",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/acme/admin-web/src",
+    "projectType": "application",
+    "tags": ["scope:acme", "type:app", "platform:web"],
+    "targets": {}
+}

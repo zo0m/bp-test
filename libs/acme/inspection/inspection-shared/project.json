@@ -1,0 +1,16 @@
+{
+    "name": "inspection-shared",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/inspection/inspection-shared/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:inspection", "platform:shared"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

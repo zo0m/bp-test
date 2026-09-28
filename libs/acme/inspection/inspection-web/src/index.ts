@@ -1,0 +1,17 @@
+export { InspectionApiService } from './lib/data-access/InspectionApiService';
+export { useCreateInspection } from './lib/data-access/useCreateInspection';
+export { useInspectionQuery } from './lib/data-access/useInspectionQuery';
+export { useInspectionsQuery } from './lib/data-access/useInspectionsQuery';
+export { useTransitionInspection } from './lib/data-access/useTransitionInspection';
+export { default as InspectionActions } from './lib/feature/actions/InspectionActions.vue';
+export { default as InspectionFilter } from './lib/feature/filter/InspectionFilter.vue';
+export { default as InspectionFormProvider } from './lib/feature/form-provider/InspectionFormProvider.vue';
+export { default as InspectionForm } from './lib/feature/form/InspectionForm.vue';
+export { default as InspectionSelector } from './lib/feature/selector/InspectionSelector.vue';
+export { default as InspectionTableProvider } from './lib/feature/table-provider/InspectionTableProvider.vue';
+export { default as InspectionTable } from './lib/feature/table/InspectionTable.vue';
+export { default as InspectionCreatePage } from './lib/page/create/InspectionCreatePage.vue';
+export { default as InspectionDetailsPage } from './lib/page/details/InspectionDetailsPage.vue';
+export { default as InspectionListPage } from './lib/page/list/InspectionListPage.vue';
+export * from './lib/routing/routeBuilders';
+export * from './lib/routing/routes';

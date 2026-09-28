@@ -1,0 +1,16 @@
+{
+    "name": "device-form",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/web/feature/device-form/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:web", "layer:feature"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "device-constants",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/shared/constants/device-constants/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:shared", "layer:constants"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "device-controller",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/device/server/rest/device-controller/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:device", "platform:server", "layer:rest"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
