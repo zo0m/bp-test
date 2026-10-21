@@ -1,0 +1,16 @@
+{
+    "name": "organization-web",
+    "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/organization/organization-web/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:organization", "platform:web"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "product-service",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/server/service/product-service/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:server", "layer:service"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

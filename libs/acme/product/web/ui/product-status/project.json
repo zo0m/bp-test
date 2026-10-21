@@ -1,0 +1,16 @@
+{
+    "name": "product-status",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/web/ui/product-status/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:web", "layer:ui"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "product-constants",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/shared/constants/product-constants/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:shared", "layer:constants"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "product-routes",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/web/routing/product-routes/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:web", "layer:routing"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
