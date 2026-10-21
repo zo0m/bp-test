@@ -1,0 +1,16 @@
+{
+    "name": "product-permissions",
+    "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/acme/product/shared/permissions/product-permissions/src",
+    "projectType": "library",
+    "tags": ["scope:acme", "domain:product", "platform:shared", "layer:permissions"],
+    "targets": {
+        "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": ["{options.reportsDirectory}"],
+            "options": {
+                "passWithNoTests": true
+            }
+        }
+    }
+}
