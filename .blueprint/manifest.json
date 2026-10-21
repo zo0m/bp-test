@@ -1,0 +1,1024 @@
+{
+  "manifestVersion": "4",
+  "generatedBy": {
+    "generatorVersion": "0.1.0",
+    "formatterVersion": "prettier@3.6.2",
+    "projectVersionId": "pv_mtxlckvea01a79c7",
+    "catalogs": {
+      "archetypes": "blueprint-archetypes@2.2.0",
+      "fieldTypes": "blueprint-field-types@2.2.0",
+      "granularity": "blueprint-structures@2.2.0",
+      "templates": "blueprint-templates@2.2.0",
+      "projectSchema": "blueprint-schema@2.2.0"
+    }
+  },
+  "artifacts": [
+    {
+      "logicalPath": "acme/organization/server/model",
+      "package": "organization-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/model/organization.entity.ts",
+          "hash": "sha256:96cf41be07c3113133d5bc7fead2ca862ed8cae0fca4b4851f398c6a9f3d0b14"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/server/rest",
+      "package": "organization-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/rest/dto/create-organization.dto.ts",
+          "hash": "sha256:a6f8de82e2ed73a0c8b59abbcfedcd20a254039bfec2f761b54864988bd92170"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/rest/dto/index.ts",
+          "hash": "sha256:5a5d656945205b39bad743aca2884a3d2ab408a5482f190d18a3afa3c7430887"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/rest/dto/update-organization.dto.ts",
+          "hash": "sha256:22874f91065ececba7c2d92f071785bde5885d74c922f547bdc5142a1da672ac"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/rest/organization-controller.module.ts",
+          "hash": "sha256:247b1838a208e7b64c201127bd9c4f2ac90d5c4bc2dc8ac1ea727f7fd33c739d"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/rest/organization.controller.ts",
+          "hash": "sha256:c8b5e2e0bbee34d5d239b68d0207552f4def17edf3348bbbde2e8dfacc473933"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/server/service",
+      "package": "organization-server",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/service/organization-service.module.ts",
+          "hash": "sha256:482b983cbc1edb9db3990bc14b845e61b285eff8a35aee65b8622acf35165104"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/lib/service/organization.service.ts",
+          "hash": "sha256:9e9a8afd799aaabc4b22614e00d67f848e1cce7a48f96657d422553445732415"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/shared/constants",
+      "package": "organization-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-shared/src/lib/constants/organization-error-codes.constants.ts",
+          "hash": "sha256:7f9dcb98733840e323c8fee636892c34042568cfa62f170a580742fadb6fc076"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/src/lib/constants/organization.constants.ts",
+          "hash": "sha256:124ff2d5f5272531e047f570431c2599e35de3341a37d51dfa85bdda06ca8b1e"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/shared/types",
+      "package": "organization-shared",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-shared/src/lib/types/organization.dto.ts",
+          "hash": "sha256:0c0fa1f08e5c96104ff50eacff02eb77a4e3de0c743a41a3490f38f70cc78535"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/src/lib/types/organization.interface.ts",
+          "hash": "sha256:d11251ea8981b3c733659298fc7bc658d1ac8752bf660ced45f212887589b843"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/web/data-access",
+      "package": "organization-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/data-access/OrganizationApiService.ts",
+          "hash": "sha256:c29339bf56e2dc00239513cadcc9a72180626ffb7f3d7160ca21d1362ddabfa0"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/data-access/useOrganizationQuery.ts",
+          "hash": "sha256:8c64fc3c32fd16035e2ec493de1ff78c1ae06821f9d879408f1e7b58fefde475"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/data-access/useOrganizationsQuery.ts",
+          "hash": "sha256:361ef23d332eb958204d1e47db1a879c2ae9508b9a5f267d5fbd4d8558568b3e"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/web/feature/link",
+      "package": "organization-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/feature/link/OrganizationLink.vue",
+          "hash": "sha256:b3859ed84585d1445458488a26e81cd42feab2be26dbd8026eec034bf2b3dc0f"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/web/feature/selector",
+      "package": "organization-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/feature/selector/OrganizationSelector.vue",
+          "hash": "sha256:e5bf0597bb74713fb10605ea504804afe81564bb89dd689c0700c2047f041316"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/organization/web/routing",
+      "package": "organization-web",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/routing/routeBuilders.ts",
+          "hash": "sha256:65c06b9b245698dac0ccbc25fd93addef656012386a61538b39f953d09c05b1c"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/src/lib/routing/routes.ts",
+          "hash": "sha256:71f6458dd4408cf309e965c44bde21e852d30c2492eec6b48e11b398c7f40be0"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/server/model",
+      "package": "product-model",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/server/model/product-model/src/lib/product.entity.ts",
+          "hash": "sha256:501f8c3a3c08f34a4816b4cad3160b45309d022a38b933468a475de3a8f3051a"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/server/rest",
+      "package": "product-controller",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/lib/dto/create-product.dto.ts",
+          "hash": "sha256:685a29864757a04b5669ecd0d4b8edfc20c90870a8d4b42c28d0444e0af62ff9"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/lib/dto/index.ts",
+          "hash": "sha256:093f7ec1cc4943fe259f196f52d6a1e0f61447e1bf7b76533c02345be93b3177"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/lib/dto/update-product.dto.ts",
+          "hash": "sha256:6b4eb456b2ff2651b8238ca6dea1cbf901c00701e62bee9bfbea892745b3a31a"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/lib/product-controller.module.ts",
+          "hash": "sha256:38bf340cbd74ec498cc76d247c690f5377bc3ede1cd46783d6af84cdd3e26a9e"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/lib/product.controller.ts",
+          "hash": "sha256:b79292f64cdcad1f17070d26b7e5ea793a90859f0714ce27bb742529289887fb"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/server/service",
+      "package": "product-service",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/server/service/product-service/src/lib/product-service.module.ts",
+          "hash": "sha256:c04d7cdd78f5f7ec3b0baca07533f20044cf1c9e95076f6426f6013eb7e1221c"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/src/lib/product.service.ts",
+          "hash": "sha256:3f144c9c5fb8d1976f72eaaa0171f5b14a6aeccfff1e09474c33754276e27014"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/shared/constants",
+      "package": "product-constants",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/src/lib/product-error-codes.constants.ts",
+          "hash": "sha256:bfeb6cd344c788613e0eda02ec9a29b0f63cd6a19a30d2174067e6d534fe45ea"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/src/lib/product.constants.ts",
+          "hash": "sha256:fb576b0f71b4460d9a81e1d4747b40ed66823e780bd3b07c5418305b482d5c88"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/shared/permissions",
+      "package": "product-permissions",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/src/lib/product.permissions.ts",
+          "hash": "sha256:9c69a28013c7aa09110519fae19963472e1b817399d1dba5bf0d9a15e7498843"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/shared/types",
+      "package": "product-types",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/types/product-types/src/lib/product.dto.ts",
+          "hash": "sha256:3b49fe7d6186bbc7b606a9591bb18760cf84478fe24d1943d020864a442a6487"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/src/lib/product.interface.ts",
+          "hash": "sha256:8e76429b84671e75bcc1b653581049ad03b66ff6ceef98b94b2f2431de858ade"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/data-access",
+      "package": "product-api",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/ProductApiService.ts",
+          "hash": "sha256:954733a93bf606235144ba5f9b5df9d10cd7c58655a588881b3241b4a82a2b82"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/useCreateProduct.ts",
+          "hash": "sha256:a8815e9b29e4924a82eaa82ecd830f006cd7e568d716d4658c7867d1095a013f"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/useDeleteProduct.ts",
+          "hash": "sha256:d5b91bb198c4e16f1855c34883a0ae68a5df3c159838eb699e6043ea0b5af392"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/useProductQuery.ts",
+          "hash": "sha256:269c5bcb17cba10b136ff6c796ccbbcdd48f8ae36fd54e97c54d24542df08d01"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/useProductsQuery.ts",
+          "hash": "sha256:91dc6923e583fe87afb7fd47c5ede02735efd33c3a0eb9cb68830a430ac57e5d"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/lib/useUpdateProduct.ts",
+          "hash": "sha256:f155c6f73474971c00a064874f0b4b180b3cf9f8962491c6b925673967d18ed1"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/feature/form",
+      "package": "product-form",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-form/src/lib/ProductForm.vue",
+          "hash": "sha256:2cf85c452ce8dc8de93bbdf08634bde8837020d9552210a17e1fa0c6fb4993bc"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/feature/form-provider",
+      "package": "product-form-provider",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/src/lib/ProductFormProvider.vue",
+          "hash": "sha256:de533049a67780fb1b9df69aa03f5a9cdc36193b31da19032ca85e17d8df8e0f"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/feature/table",
+      "package": "product-table",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-table/src/lib/ProductTable.vue",
+          "hash": "sha256:bdff90967f8b00f26a35b3b84d8153a9b27ed73ecfdad5aaf3a46050d4a82f23"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/feature/table-provider",
+      "package": "product-table-provider",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/src/lib/ProductTableProvider.vue",
+          "hash": "sha256:339d97064c9bd2927db6d0f522b248063a447e58e485603ec9b3c60a3299340f"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/page/create",
+      "package": "product-create-page",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-create-page/src/lib/ProductCreatePage.vue",
+          "hash": "sha256:4c5d07b155b28bcea2a58dfe298783a4c29d2ca1911a7e725476002162f0b183"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/page/details",
+      "package": "product-details-page",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-details-page/src/lib/ProductDetailsPage.vue",
+          "hash": "sha256:5c535cb0355e30cbb6dfc8a8f325c1b6dde67d20acdae963a58368c479733296"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/page/edit",
+      "package": "product-edit-page",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/src/lib/ProductEditPage.vue",
+          "hash": "sha256:6e1e542cf18c5b6dc3e02f9660a922d2ba22063ec1b30226c03f9da8f3366515"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/page/list",
+      "package": "product-list-page",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-list-page/src/lib/ProductListPage.vue",
+          "hash": "sha256:6f934ffd1ab2cea6d53346135fd950a131da014939265df2f1ce33cfd283ceaf"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/routing",
+      "package": "product-routes",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/routing/product-routes/src/lib/routeBuilders.ts",
+          "hash": "sha256:e6d7691331b3c0d95c3fa5e936ede7a8f042a2080d3d2236ecda0e8fe2271495"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/src/lib/routes.ts",
+          "hash": "sha256:dd322cb82dcdb34d61f877c2e776ee408ad73eaba5f06e573751f2f5eca0f985"
+        }
+      ]
+    },
+    {
+      "logicalPath": "acme/product/web/ui/status",
+      "package": "product-status",
+      "lifecycle": "generated",
+      "files": [
+        {
+          "path": "libs/acme/product/web/ui/product-status/src/lib/ProductStatus.vue",
+          "hash": "sha256:643a01c5f338bc42fa0125636f52bcbd8f87d7b76a704dd7517c4246be24d325"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "organization-server",
+      "path": "libs/acme/organization/organization-server",
+      "importAlias": "@acme/organization/server/organization-server",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-server/README.md",
+          "hash": "sha256:d83cdb3d44c11d32b74c789fef093cb3e6a7fcacb153fe60db270cf1c8dbc19a"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/project.json",
+          "hash": "sha256:b7ac175612c2d3933493b3762889649e1a888eeb086f20c14e296b3587a943de"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/src/index.ts",
+          "hash": "sha256:b32692d70d76dd959d64857bbeab1784a7f992be6945ace5744905de50490453"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/organization/organization-server/vite.config.ts",
+          "hash": "sha256:69b3349a0f07e999844566b6f48c17a10e1018342f947ff532bc2d04b2ad32fd"
+        }
+      ]
+    },
+    {
+      "id": "organization-shared",
+      "path": "libs/acme/organization/organization-shared",
+      "importAlias": "@acme/organization/shared/organization-shared",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-shared/README.md",
+          "hash": "sha256:f7c920e6de4d34aaca7c21f2fbd4564aa844a7aecdb2f5cb27d39fd807dae202"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/project.json",
+          "hash": "sha256:ac6a6593e115590ea719f1c6fc05983c465555a09a4f2cf826b468628b6252e6"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/src/index.ts",
+          "hash": "sha256:801f1bf5a102c21d766a411478806af5a63232e8823f869486cd6f1016a8e356"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/tsconfig.lib.json",
+          "hash": "sha256:0dda976860ad9aa2f74068ada63d75296cfacaeb1d57e5ea9c9574b84d53ec8f"
+        },
+        {
+          "path": "libs/acme/organization/organization-shared/vite.config.ts",
+          "hash": "sha256:8ae7b1441563bc184729be5e9ded3bcbfa344db282feda0dd3d7f5956b1e158e"
+        }
+      ]
+    },
+    {
+      "id": "organization-web",
+      "path": "libs/acme/organization/organization-web",
+      "importAlias": "@acme/organization/web/organization-web",
+      "files": [
+        {
+          "path": "libs/acme/organization/organization-web/README.md",
+          "hash": "sha256:2513bee9db3d733ff8a82e881a7b43eebf4e3a75e4c3398fd39673c604adecbf"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/project.json",
+          "hash": "sha256:157b2898f54a45dd8abf7c3ed70e3cc4d923a846fdf4b6c687be844e8c6ed339"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/src/index.ts",
+          "hash": "sha256:ecda2bd20ec6f835849176e6f2882c01caf89db70c241e98a5b38a27f59a9aa8"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/tsconfig.json",
+          "hash": "sha256:a3e97346b26ce7d9e2313c13ac2d431080ef58d4f789361b7f0fca2bd30ad9d5"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/tsconfig.lib.json",
+          "hash": "sha256:c78d22cf48d3415ec4972c6ab2cab5d1f87be7b6262a741487bbb8dfe258eb9d"
+        },
+        {
+          "path": "libs/acme/organization/organization-web/vite.config.ts",
+          "hash": "sha256:9c2238ec590e1f21b022318432e91538aaf942c774f1b8fa6fa47caee764a3cb"
+        }
+      ]
+    },
+    {
+      "id": "product-api",
+      "path": "libs/acme/product/web/data-access/product-api",
+      "importAlias": "@acme/product/web/product-api",
+      "files": [
+        {
+          "path": "libs/acme/product/web/data-access/product-api/README.md",
+          "hash": "sha256:06afb85d6dbd1c390fc642f62e6ddd5b4694308ee6ca029a24ed9c71e6025fa2"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/project.json",
+          "hash": "sha256:930b9c2203905799caea5ab488e42858bb28e124c7c1aabafa80255f8ca21729"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/src/index.ts",
+          "hash": "sha256:2ed53373a91873c7717e44e1ae419875927d52ed060f32a19156106a0f8a3623"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/data-access/product-api/vite.config.ts",
+          "hash": "sha256:ed0f743e60afe5864913cadde42e6eb1159197099c12cb914856c2534f4a6fd6"
+        }
+      ]
+    },
+    {
+      "id": "product-constants",
+      "path": "libs/acme/product/shared/constants/product-constants",
+      "importAlias": "@acme/product/shared/product-constants",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/README.md",
+          "hash": "sha256:9d18037a9f0fa13194f55efd932eec8650f14583fda7f8113ab667177592ce66"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/project.json",
+          "hash": "sha256:5def960861bcd56fd3343315bfa2c060b7f9db592ba6a002c04cb60f6734a02d"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/src/index.ts",
+          "hash": "sha256:a3b19c94740859e774f61a8d56c56947b8606bb08f09e7c032870e71ae9c7a3e"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/shared/constants/product-constants/vite.config.ts",
+          "hash": "sha256:fdd985c1c3fc095d4577e418f29b9de881b676162716a4d273dae8edc70647d5"
+        }
+      ]
+    },
+    {
+      "id": "product-controller",
+      "path": "libs/acme/product/server/rest/product-controller",
+      "importAlias": "@acme/product/server/product-controller",
+      "files": [
+        {
+          "path": "libs/acme/product/server/rest/product-controller/README.md",
+          "hash": "sha256:06df36d2e8bda8cf6eb779bd02bbc2bfea51f3d72eec9dcc9625a4906a497285"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/project.json",
+          "hash": "sha256:acdb75482c6670a3ba93c4de1e3d9c9e38b9fd2ce8d9baff358bcc1bc2fe73e0"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/src/index.ts",
+          "hash": "sha256:e870f3de0b26a935aa0d061a6db947e01247722cb2606e6ed4f7f5b5db9a5127"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/server/rest/product-controller/vite.config.ts",
+          "hash": "sha256:46adba411cfe5d701d8b77002464954848d428d286ec9172d53f17f3418e399b"
+        }
+      ]
+    },
+    {
+      "id": "product-create-page",
+      "path": "libs/acme/product/web/page/product-create-page",
+      "importAlias": "@acme/product/web/product-create-page",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-create-page/README.md",
+          "hash": "sha256:47c0a315690ac2ee6484234fc9b5bd872ef8382113141925a0da229a775be69f"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-create-page/project.json",
+          "hash": "sha256:a80fb91f84a3fd574dc9e5256132f444c3e5ce520664dc3743b9aac38137a515"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-create-page/src/index.ts",
+          "hash": "sha256:2b918383553285617474c24d35533999b31c253151dc1495e90ebfb8ccd13414"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-create-page/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-create-page/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-create-page/vite.config.ts",
+          "hash": "sha256:d85a66fced7ac505201df32e37813d396443868ab698a8d9ff797300b693e732"
+        }
+      ]
+    },
+    {
+      "id": "product-details-page",
+      "path": "libs/acme/product/web/page/product-details-page",
+      "importAlias": "@acme/product/web/product-details-page",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-details-page/README.md",
+          "hash": "sha256:0b389d52a92f24ce9c5978086637586c7bfc4e369caef2696ed82c509e0ba57f"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-details-page/project.json",
+          "hash": "sha256:cb650c063dd0dd546db3df80c3c2d9cb6e9fd5a4a80cac29875e29430283fd8b"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-details-page/src/index.ts",
+          "hash": "sha256:05b793ace1582370417a0131a5194dcfc06884e4819884b05e7b5c11338b2d3a"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-details-page/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-details-page/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-details-page/vite.config.ts",
+          "hash": "sha256:6bbc08ab0eaa83bfadee369b18b3403e0278b6eea00f83000a1bd0c3e2722ebc"
+        }
+      ]
+    },
+    {
+      "id": "product-edit-page",
+      "path": "libs/acme/product/web/page/product-edit-page",
+      "importAlias": "@acme/product/web/product-edit-page",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/README.md",
+          "hash": "sha256:3dab1032a03ab79ff71de526414a4526eb55832249671e91cdbcc0b973523ce3"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/project.json",
+          "hash": "sha256:8845da269dc0cf02b3b607e9525ad3714fa349faa14e8a41511cb2deb1d13f2c"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/src/index.ts",
+          "hash": "sha256:30ef35e34840cdb34b7d5eac009df350411d3566acf51c0dcac021084ac5bdd6"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-edit-page/vite.config.ts",
+          "hash": "sha256:7a1f2477dcfa11154c4b1a48c2ba7ac9671bf0cc63423766d14dbf70ddb39ee3"
+        }
+      ]
+    },
+    {
+      "id": "product-form",
+      "path": "libs/acme/product/web/feature/product-form",
+      "importAlias": "@acme/product/web/product-form",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-form/README.md",
+          "hash": "sha256:53efce5751d432e95becdcbb52c4b653452a62c89767f69d8f3df44737223697"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form/project.json",
+          "hash": "sha256:7391ef831934b1a7b296e12a5a0205f74a78c92b571b8e6ebdeafd6c05f6a7b4"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form/src/index.ts",
+          "hash": "sha256:3ee25681870b2f62c389d509fc0878f4bf2e16992af6594526a3891ea8f2f8e7"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form/vite.config.ts",
+          "hash": "sha256:50f0098e9a9a8255f04fb15e20bb44c99b8259b4f65063a112f02a0d950a2037"
+        }
+      ]
+    },
+    {
+      "id": "product-form-provider",
+      "path": "libs/acme/product/web/feature/product-form-provider",
+      "importAlias": "@acme/product/web/product-form-provider",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/README.md",
+          "hash": "sha256:96789f093741c4daca4a9200a99af6eada4797986afa3ccbc0ef0f31bb13551e"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/project.json",
+          "hash": "sha256:9259d9add400ce5f4715c8aea930de29f1808de6041f4b379760a1c32e7a4b08"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/src/index.ts",
+          "hash": "sha256:a22aef4c674db7dcb0e9a777f457f2f7bc40406c9fd793556c972c89f34b9355"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-form-provider/vite.config.ts",
+          "hash": "sha256:d717408f092f163973b98b1b2b83094f139d73b9d49d846d7745cd83a997b64e"
+        }
+      ]
+    },
+    {
+      "id": "product-list-page",
+      "path": "libs/acme/product/web/page/product-list-page",
+      "importAlias": "@acme/product/web/product-list-page",
+      "files": [
+        {
+          "path": "libs/acme/product/web/page/product-list-page/README.md",
+          "hash": "sha256:040ce2335c8d96a76b71741799ec5955b2c7786c380f6821425ecf1bc1f4df43"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-list-page/project.json",
+          "hash": "sha256:b1639af23d5f13a91248c0a59ae2bc6e85a8cb0a169849cdd25fc0a2eb2363d5"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-list-page/src/index.ts",
+          "hash": "sha256:01d93a271561f42cd935826e7dfd6b4712602415d1006b8076d93d0c92599900"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-list-page/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-list-page/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/page/product-list-page/vite.config.ts",
+          "hash": "sha256:72f89f375670dfe8b6c20e96c2fc9237888316ed566252462a2af3e1d0874080"
+        }
+      ]
+    },
+    {
+      "id": "product-model",
+      "path": "libs/acme/product/server/model/product-model",
+      "importAlias": "@acme/product/server/product-model",
+      "files": [
+        {
+          "path": "libs/acme/product/server/model/product-model/README.md",
+          "hash": "sha256:2801b5ebb1a34fcf61d21af29cc51d44052893c82431bbdfc4524617e4640706"
+        },
+        {
+          "path": "libs/acme/product/server/model/product-model/project.json",
+          "hash": "sha256:6cd62d5492637217bdc1b8ae74f1833c141bfedfd4ed4a388cc5b423cb2d88cb"
+        },
+        {
+          "path": "libs/acme/product/server/model/product-model/src/index.ts",
+          "hash": "sha256:b3b74963a17954b078a01db93808c2da209106feb1174458bb26f5a2c388fc30"
+        },
+        {
+          "path": "libs/acme/product/server/model/product-model/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/server/model/product-model/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/server/model/product-model/vite.config.ts",
+          "hash": "sha256:116211974d6aa492c722d1a9ff4e7c7d0286bb7397f489f16b9ad760104ea1c3"
+        }
+      ]
+    },
+    {
+      "id": "product-permissions",
+      "path": "libs/acme/product/shared/permissions/product-permissions",
+      "importAlias": "@acme/product/shared/product-permissions",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/README.md",
+          "hash": "sha256:cf4c58bc09899fc906087ab76625e7596d81e99cd3b7f941672ce35140333fb9"
+        },
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/project.json",
+          "hash": "sha256:eb5881d8eedb8c51d3b8b047ca9674f83358d96bc46b63292f7cf1af56616063"
+        },
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/src/index.ts",
+          "hash": "sha256:a5631c2ef580484d07d6f6540b1d033b51393d4e434bf5eb85750918075099dd"
+        },
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/shared/permissions/product-permissions/vite.config.ts",
+          "hash": "sha256:48d744b0176d081fb8f7ad0f78187bbb131e23569fdbe176717988d7b4598706"
+        }
+      ]
+    },
+    {
+      "id": "product-routes",
+      "path": "libs/acme/product/web/routing/product-routes",
+      "importAlias": "@acme/product/web/product-routes",
+      "files": [
+        {
+          "path": "libs/acme/product/web/routing/product-routes/README.md",
+          "hash": "sha256:ae67b951ca7537ce23da5308c9ff6bf0c114d841be2a4ab600e16e3675ecaaea"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/project.json",
+          "hash": "sha256:9e0f1109449ed9986b84876c137f60cc272f91be73f48cdb4db67e01ff242bab"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/src/index.ts",
+          "hash": "sha256:7fa95f837869bafe922a5f07b9a63262d18fd76a3484dc51f91770294e369e8a"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/routing/product-routes/vite.config.ts",
+          "hash": "sha256:f3cb920e28b0ee0168d55f1d2dbcb9bc29c2c2de9c4bd9f4cb06ddfd3013c9f9"
+        }
+      ]
+    },
+    {
+      "id": "product-service",
+      "path": "libs/acme/product/server/service/product-service",
+      "importAlias": "@acme/product/server/product-service",
+      "files": [
+        {
+          "path": "libs/acme/product/server/service/product-service/README.md",
+          "hash": "sha256:f311a8030e5079447a97286f31f0c393d81b6e59a180a3d9881860ea95a2932c"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/project.json",
+          "hash": "sha256:edd8706c53ee87b282f14df6d06127e3f174cb1127f9902051c22dd0c8993f2f"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/src/index.ts",
+          "hash": "sha256:5b43478b9b67242a8579a9249d51983edb5bdcf9dc21dbaaa4f40d83160e8577"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/server/service/product-service/vite.config.ts",
+          "hash": "sha256:45aed64cb4511beea67f03015186d755e3e0fdb5f680abf63b18737823bc049a"
+        }
+      ]
+    },
+    {
+      "id": "product-status",
+      "path": "libs/acme/product/web/ui/product-status",
+      "importAlias": "@acme/product/web/product-status",
+      "files": [
+        {
+          "path": "libs/acme/product/web/ui/product-status/README.md",
+          "hash": "sha256:7382109df2deb8723a4e0f6cf6399c52fc38a3241dbf9a44c453830c4f9446d2"
+        },
+        {
+          "path": "libs/acme/product/web/ui/product-status/project.json",
+          "hash": "sha256:af36361cff182e2658827e477c2ba894d36e0f08285b50d9091e4d41fd8b45e0"
+        },
+        {
+          "path": "libs/acme/product/web/ui/product-status/src/index.ts",
+          "hash": "sha256:a9be776dd5363b1a12a2785271d7fd7a23d05dad8d6e338ac1aed1c091481672"
+        },
+        {
+          "path": "libs/acme/product/web/ui/product-status/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/ui/product-status/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/ui/product-status/vite.config.ts",
+          "hash": "sha256:f6317518042e76749d2ca231e94da7ef720e52c05aecb5090fa03df7daf272a3"
+        }
+      ]
+    },
+    {
+      "id": "product-table",
+      "path": "libs/acme/product/web/feature/product-table",
+      "importAlias": "@acme/product/web/product-table",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-table/README.md",
+          "hash": "sha256:51fd987e4fc4504c2e65d7f1fa9418f8994ea7cd036d908effa7d48870cca8ad"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table/project.json",
+          "hash": "sha256:181bbfc9fe17bd5df4de9ccc7a03344512c09662a405c589c76d5ccacdb464dc"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table/src/index.ts",
+          "hash": "sha256:b5410150cc58a925813ea07b07a10522391d40f4891fbb258ef8107b4198e210"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table/vite.config.ts",
+          "hash": "sha256:8b354e76a6cd4ad54f1647dbe7ced713fd1ad4ef69981e9f4e3c01aba4863eca"
+        }
+      ]
+    },
+    {
+      "id": "product-table-provider",
+      "path": "libs/acme/product/web/feature/product-table-provider",
+      "importAlias": "@acme/product/web/product-table-provider",
+      "files": [
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/README.md",
+          "hash": "sha256:2fa106044537e116d608c46afbc8bce03652f129803ccbbd95469ead1f526767"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/project.json",
+          "hash": "sha256:85efc489f3cebcdbc96b4647188a7d9df047f7e9792869935eb2a7b9b87b533a"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/src/index.ts",
+          "hash": "sha256:f130599097189716b9f6b7634da74af3efff46cf667bcafd4bac97e7825402dd"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/tsconfig.lib.json",
+          "hash": "sha256:5c31c8597334e849e2a880231d143a026dc1da94518b48c6df2e8761efea6f53"
+        },
+        {
+          "path": "libs/acme/product/web/feature/product-table-provider/vite.config.ts",
+          "hash": "sha256:fb859fb88b0e7178e217ff1506f7de813a5b4da894d2b54387f91b9c34f0be64"
+        }
+      ]
+    },
+    {
+      "id": "product-types",
+      "path": "libs/acme/product/shared/types/product-types",
+      "importAlias": "@acme/product/shared/product-types",
+      "files": [
+        {
+          "path": "libs/acme/product/shared/types/product-types/README.md",
+          "hash": "sha256:e6ccc93ccd103f6648e3157271074cfc3827d158e17258ace6e6dc1ded3653f8"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/project.json",
+          "hash": "sha256:6113628a9f3fa759eca7ad02e00e3e0f2f917500b0755676461e2398f8054b37"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/src/index.ts",
+          "hash": "sha256:1559fcdba34e76c460ef4dfe91abd53a09015679851ac3204f1e38ecba1e12cb"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/tsconfig.json",
+          "hash": "sha256:9ca80e2eeb286211c18894a5905e19bd411ac480106514bd9f055c572517e855"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/tsconfig.lib.json",
+          "hash": "sha256:a87730bab738bfbe0e8ae415d9874f21b6ecb20db75eeb8900026c0d0cd82385"
+        },
+        {
+          "path": "libs/acme/product/shared/types/product-types/vite.config.ts",
+          "hash": "sha256:1a56f6fb13c6261f5a0df873156e0726b2d8f904ece7cb8638defd0d2fe5df6e"
+        }
+      ]
+    }
+  ],
+  "workspace": [
+    {
+      "path": "tsconfig.blueprint.json",
+      "hash": "sha256:6e9bb82f68340664f60cea5e31292ee4907cc04766abb7914602d48628e34248",
+      "purpose": "import-alias registry"
+    }
+  ]
+}
